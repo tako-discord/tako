@@ -1,0 +1,49 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id                    String  @id @unique
+  uuid                  String  @unique @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  license               String?
+  background            String?
+  color                 Int?
+  language              String  @default("en")
+  quickTranslateTooltip Boolean @default(true)
+  ip                    String?
+}
+
+model Guild {
+  id             String     @id @unique
+  color          Int?
+  autoRolesUser  String[]
+  autoRolesBot   String[]
+  autotranslate  Boolean    @default(false)
+  language       String     @default("en")
+  confidence     Float      @default(0.75)
+  replyStyle     ReplyStyle @default(minWebhook)
+  deleteOriginal Boolean    @default(false)
+}
+
+model Channel {
+  id            String  @id @unique
+  stickyEmbed   Boolean @default(false)
+  stickyMessage String?
+  autoReact     String[] @default([])
+}
+
+model Badge {
+  name  String   @id
+  emoji String
+  users String[]
+}
+
+enum ReplyStyle {
+  minWebhook
+  embed
+}

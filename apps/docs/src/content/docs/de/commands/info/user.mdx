@@ -1,0 +1,33 @@
+---
+title: Nutzer Infos
+description: A reference page for the "/info user" command inside the Tako Discord bot.
+---
+
+import { Tabs, TabItem } from '@astrojs/starlight/components';
+
+Mit `/info user`, kriegst du Informationen von einem Nutzer auf Discord. Das ist hilfreich um alle wichtigen Informationen auf einem Glanz zu sehen, besonders wenn dir eine kaputte Erwähnung geschickt wird (sieht so änhlich aus wie `<@751092600890458203>`).
+
+## Benutzung
+
+<Tabs>
+	<TabItem label="Slash Befehle">
+		`/info nutzer [nutzer]`
+	</TabItem>
+	<TabItem label="Kontext Menü">
+		[*Nutzer Kontext Menü*](../../../reference/context-menus/#user-context-menu) > *Apps* > *Nutzer-Info*
+	</TabItem>
+</Tabs>
+
+## Ausgabe
+
+Dieser Befehl, zeigt dir eine Embed mit den wichtigsten Informationen an. Es beinhaltet auch ein anpassbares Banner und Farbe.
+
+Wenn der Nutzer auf dem Server ist, wo der Befehl ausgeführt wurde, wird es auch zusätzliche Informationen über den Nutzer auf dem Server zeigen.
+
+{/* Die Farbe wird wie folgt ausgewählt: _Nutzer Farbe (`/set_color personal`)_ > _Profil Farbe_ > _Server Farbe (`/set_color server`)_ > _Standard Farbe (Türkis)_. */}
+Die Farbe wird wie folgt ausgewählt: _Profil Farbe_ > _Standard Farbe (Türkis)_.
+
+Das Server-Profilbild wird auch angezeigt, sofern es anders ist als das reguläre Profilbild. Außerdem wird ein GIF Link angezeigt, wenn das Profilbild animiert ist.
+
+![User Info Command](../../../../../assets/info/user.png)
+_Oben zeigt es die Ansicht, wenn die Person auf dem Server ist, währen die untere Ansicht die Informationen zeigt, die jeder Nutzer hat_

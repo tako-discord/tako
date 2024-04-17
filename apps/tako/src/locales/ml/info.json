@@ -1,0 +1,108 @@
+{
+	"ping": {
+		"name": "പിംഗ്",
+		"description": "ബോട്ട് പിംഗ് ചെയ്യുക",
+		"title": "പോങ്ങ്!",
+		"response": "{{latency, number}}ms."
+	},
+	"info": {
+		"name": "വിവരം",
+		"description": "എന്തിനെക്കുറിച്ചും വിവരങ്ങൾ നേടുക",
+		"user": {
+			"name": "ഉപയോക്താവ്",
+			"description": "ഒരു വ്യക്തിയെ കുറിച്ചുള്ള വിവരങ്ങൾ നേടുക അല്ലെങ്കിൽ നിങ്ങളുടെ വിവരങ്ങൾ നേടുക",
+			"options": {
+				"user": {
+					"name": "ഉപയോക്താവ്",
+					"description": "വിവരങ്ങൾ ലഭിക്കേണ്ട വ്യക്തി ഉപയോക്താവ്"
+				}
+			},
+			"context": {
+				"name": ""
+			},
+			"title": "{{user}} എന്നതിനായുള്ള വിവരങ്ങൾ",
+			"embedDescription": "<@{{user}}> എന്നതിനെക്കുറിച്ചുള്ള ചില വിവരങ്ങൾ ഇതാ",
+			"general": "ജനറൽ",
+			"username": "**ഉപയോക്തൃനാമം**: {{username}}",
+			"id": "**ഐഡി**: {{id}}",
+			"flags": "**പതാക**:{{- flags}}",
+			"noFlags": "*പതാക ഇല്ല*",
+			"flag": {
+				"Staff": "ഡിസ്‌കോർഡിൽ ജോലി ചെയ്യുന്ന ആളുകൾ",
+				"Partner": "പങ്കാളിയായ സെർവർ ഓപ്പറേറ്റർ",
+				"HypeSquad": "ഹൈപ്പ്സ്ക്വാഡ് ഇവന്റുകൾ",
+				"BugHunterLevel1": "ഡിസ്കോർഡ് ബഗ് ഹണ്ടർ",
+				"HypeSquadOnlineHouse1": "ഹൈപ്പ്സ്ക്വാഡ് ധൈര്യം",
+				"HypeSquadOnlineHouse2": "ഹൈപ്പ്സ്ക്വാഡ് ബ്രില്യൻസ്",
+				"HypeSquadOnlineHouse3": "ഹൈപ്പ്സ്ക്വാഡ് ബാലൻസ്",
+				"PremiumEarlySupporter": "ആദ്യകാല പിന്തുണക്കാരൻ",
+				"TeamUser": "ടീമുകൾ",
+				"BugHunterLevel2": "ഡിസ്കോർഡ് ബഗ് ഹണ്ടർ",
+				"VerifiedBot": "പരിശോധിച്ച ബോട്ട്",
+				"VerifiedDeveloper": "നേരത്തെ പരിശോധിച്ച ബോട്ട് ഡെവലപ്പർ",
+				"CertifiedModerator": "മോഡറേറ്റർ പ്രോഗ്രാമുകൾ പൂർവ്വ വിദ്യാർത്ഥികൾ",
+				"BotHTTPInteractions": "ബോട്ട് HTTP ഇടപെടലുകൾ മാത്രമാണ് ഉപയോഗിക്കുന്നത്",
+				"Spammer": "സ്പാമർ",
+				"ActiveDeveloper": "സജീവ ഡെവലപ്പർ"
+			},
+			"created": "**സൃഷ്‌ടിച്ചത്**: {{- date }} ({{- relative}})",
+			"avatar": "**അവതാർ**: ",
+			"banner": "",
+			"server": "സെർവർ",
+			"joined": "**സൃഷ്ടിച്ചു**: {{- date}} ({{- relative}})",
+			"unknown": "അറിയപ്പെടാത്ത",
+			"roles": "**വേഷങ്ങൾ**: {{- roles}}",
+			"noRoles": "*വേഷങ്ങൾ ഇല്ല*",
+			"topRole": "**ടോപ്പ് റോൾ**: <@&{{role}}>",
+			"hoistRole": "**ഹോസ്റ്റ് റോൾ**: <@&{{role}}>",
+			"serverAvatar": "**സെർവർ അവതാർ**: ",
+			"serverBanner": "",
+			"badges": ""
+		},
+		"badge": {
+			"name": "",
+			"description": "",
+			"options": {
+				"badge": {
+					"name": "",
+					"description": ""
+				}
+			},
+			"notFound": {
+				"title": "",
+				"description": ""
+			}
+		}
+	},
+	"urban": {
+		"name": "നഗര-നിഘണ്ടു",
+		"description": "നഗര നിഘണ്ടു തിരയുക",
+		"options": {
+			"term": {
+				"name": "പദം",
+				"description": "തിരയേണ്ട പദം"
+			},
+			"strict": {
+				"name": "കർശനമായ",
+				"description": "കർശനമായ മോഡ് ഉപയോഗിക്കണോ വേണ്ടയോ എന്ന്"
+			},
+			"matchCase": {
+				"name": "പൊരുത്തം-കേസ്",
+				"description": "ഫലങ്ങൾ പദത്തിന്റെ കേസിംഗുമായി പൊരുത്തപ്പെടേണ്ടതുണ്ടോ എന്ന്"
+			},
+			"ephemeral": {
+				"name": "",
+				"description": ""
+			}
+		},
+		"error": "",
+		"error_404": "",
+		"example": "",
+		"footer": ""
+	},
+	"help": {
+		"name": "",
+		"description": "",
+		"response": ""
+	}
+}

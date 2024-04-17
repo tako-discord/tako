@@ -1,0 +1,42 @@
+{
+	"uwuify": {
+		"name": "uwuify",
+		"description": "uwuify t~text uwu",
+		"options": {
+			"message": {
+				"name": "besked",
+				"description": "Din besked"
+			},
+			"stutters": {
+				"name": "stamme",
+				"description": "Chance for at s~s~stamme (i %, standard: 10%)"
+			},
+			"faces": {
+				"name": "ansigter",
+				"description": "Chancen for at tilføje et ansigt ^w^ (i %, standard: 0%)"
+			},
+			"actions": {
+				"name": "handlinger",
+				"description": "Chancen for at tilføje en handling *rødmer* (i %, standard: 5 %)"
+			},
+			"exclamations": {
+				"name": "udråbstegn",
+				"description": "Chance for at erstatte et udråbstegn!1!!! (i %, standard: 25%)"
+			}
+		}
+	},
+	"ip": {
+		"name": "ip",
+		"description": "Få en brugers IP",
+		"options": {
+			"user": {
+				"name": "bruger",
+				"description": "Brugeren til at hente IP af"
+			}
+		},
+		"embed": {
+			"author": "{{user}}' IP",
+			"footer": "Af juridiske årsager er dette en joke."
+		}
+	}
+}

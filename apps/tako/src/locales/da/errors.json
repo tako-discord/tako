@@ -1,0 +1,31 @@
+{
+	"checks": {
+		"devOnly": {
+			"title": "Hemmelig ting",
+			"description": "Du skal være en udvikler af botten for at kunne køre denne kommando."
+		}
+	},
+	"language": {
+		"invalidLanguage": {
+			"title": "Ugyldigt sprog",
+			"description": "Det er ikke et gyldigt sprog. Følg venligst formatet `xx` (`en`, `de`, etc.) eller `xx-XX` (`en-US`, `zh-CN`, etc.), hvor `x` repræsenterer en del af din sprogkode."
+		}
+	},
+	"serverRequired": {
+		"title": "Server påkrævet",
+		"description": "Du skal køre denne kommando på en server."
+	},
+	"noPermission": {
+		"title": "Ingen tilladelser",
+		"description_one": "Du har ikke tilladelse til at køre denne kommando. Du skal have følgende tilladelse: `{{permission}}`.",
+		"description_other": "",
+		"permissions": {
+			"manageGuild": "Administrer Server"
+		}
+	},
+	"autoReact": {
+		"maxEmojis": "Du kan kun have et maksimum på 20 emojis i din auto-reaktion liste.",
+		"noTextChannel": "",
+		"noEmojis": "Der er ingen emojis på listen over automatiske reaktioner på <#{{channel}}>."
+	}
+}

@@ -1,0 +1,42 @@
+{
+	"uwuify": {
+		"name": "",
+		"description": "",
+		"options": {
+			"message": {
+				"name": "",
+				"description": ""
+			},
+			"stutters": {
+				"name": "",
+				"description": ""
+			},
+			"faces": {
+				"name": "",
+				"description": ""
+			},
+			"actions": {
+				"name": "",
+				"description": ""
+			},
+			"exclamations": {
+				"name": "",
+				"description": ""
+			}
+		}
+	},
+	"ip": {
+		"name": "",
+		"description": "",
+		"options": {
+			"user": {
+				"name": "",
+				"description": ""
+			}
+		},
+		"embed": {
+			"author": "",
+			"footer": ""
+		}
+	}
+}

@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+	--sl-color-orange: theme('colors.yellow.500');
+	--sl-color-orange-low: theme('colors.yellow.900');
+	--sl-color-orange-high: theme('colors.yellow.100');
+}
+
+html[data-theme='light'] .starlight-aside--note {
+	--sl-color-asides-text-accent: theme('colors.accent.800');
+}
+
+.starlight-aside--note {
+	--sl-color-asides-text-accent: theme('colors.accent.300');
+	@apply bg-accent-100 dark:bg-accent-800 border-accent-400 dark:border-accent-500;
+}
+
+img,
+aside {
+	@apply rounded-lg;
+}
+
+img[alt="Screenshot of the Shapes Button"] {
+	max-width: 300px;
+ }

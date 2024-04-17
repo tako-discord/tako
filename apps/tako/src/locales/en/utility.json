@@ -1,0 +1,184 @@
+{
+	"changeLanguage": {
+		"name": "set-language",
+		"description": "Change the language of the bot",
+		"personal": {
+			"name": "personal",
+			"description": "Change the language of the bot for yourself and personal messages"
+		},
+		"server": {
+			"name": "server",
+			"description": "Change the language of the bot for the whole server"
+		},
+		"options": {
+			"language": {
+				"name": "language",
+				"description": "The language you want to use for the bot"
+			}
+		},
+		"response": "Successfully changed the language to `{{language}}`"
+	},
+	"stickyMessages": {
+		"name": "sticky-message",
+		"description": "Sticky Messages allow you to display a message at the bottom of a channel",
+		"set": {
+			"name": "set",
+			"description": "Set the sticky message",
+			"options": {
+				"channel": {
+					"name": "channel",
+					"description": "The channel to set the sticky message in"
+				},
+				"embed": {
+					"name": "embed",
+					"description": "Whether or not to send the message as an embed"
+				}
+			},
+			"modal": {
+				"title": "Sticky Messages",
+				"label": "Message",
+				"placeholder": "Enter your message here. It will always be displayed at the bottom of the channel.",
+				"response": "Successfully set the sticky message for {{-channel}}!"
+			}
+		}
+	},
+	"quickTranslate": {
+		"name": "Quick Translate",
+		"tooltip": "Wanna change the language? Use \"{{- command}}\"!",
+		"noContent": "The message is either empty or just an embed. Please provide a message with valid content next time!",
+		"original": "Go back to the original message"
+	},
+	"feedback": {
+		"name": "feedback",
+		"description": "Send feedback to the developers",
+		"options": {
+			"priority": {
+				"name": "priority",
+				"description": "The priority of your feedback",
+				"choices": {
+					"none": "None",
+					"low": "Low",
+					"normal": "Normal",
+					"high": "High",
+					"urgent": "Urgent"
+				}
+			}
+		},
+		"modal": {
+			"title": "Feedback",
+			"response": {
+				"title": "Feedback has been sucessfully sent!"
+			},
+			"error": {
+				"title": "An error occurred while sending your feedback.",
+				"description": "Please try again later. If this error persists, please contact the developers via their [support server](<{{supportServer}}>)."
+			},
+			"feedbackTitle": {
+				"id": "feedbackTitle",
+				"label": "Title",
+				"placeholder": "Enter a title for your feedback here. This will help us to categorize your feedback."
+			},
+			"message": {
+				"id": "feedbackMessage",
+				"label": "Your Message",
+				"placeholder": "Enter your feedback here"
+			}
+		}
+	},
+	"autoReact": {
+		"name": "auto-react",
+		"description": "Automatically reacts to every new message in a channel with a set emoji",
+		"add": {
+			"name": "add",
+			"description": "Add an emoji that will be automatically added to every new message in the channel",
+			"options": {
+				"emoji": {
+					"name": "emoji",
+					"description": "The emoji to add. Can be a custom emoji or a unicode emoji."
+				},
+				"channel": {
+					"name": "channel",
+					"description": "The channel to add the emoji to. If not specified, the current channel will be used."
+				}
+			},
+			"title": "Successfully added!",
+			"response": "Every new message in <#{{channel}}> will now be reacted to with {{- emojis}}."
+		},
+		"remove": {
+			"name": "remove",
+			"description": "Remove an emoji that is automatically added to every new message in the channel",
+			"options": {
+				"emoji": {
+					"name": "emoji",
+					"description": "The emoji to remove. Can be a custom emoji or a unicode emoji."
+				},
+				"channel": {
+					"name": "channel",
+					"description": "The channel to remove the emoji from. If not specified, the current channel will be used."
+				}
+			},
+			"title": "Successfully removed!",
+			"response": "There will be no more automatic reactions in <#{{channel}}> from now on."
+		},
+		"list": {
+			"name": "list",
+			"description": "List all emojis that will be automatically added to every new message in the channel",
+			"options": {
+				"channel": {
+					"name": "channel",
+					"description": "The channel to list the emoji(s) of. If not specified, the current channel will be used."
+				}
+			},
+			"response": "The following emojis are being automatically added to every new message in <#{{channel}}>:"
+		}
+	},
+	"autoRoles": {
+		"name": "autoroles",
+		"description": "Automatically assign roles to users or bots when they join the server",
+		"user": {
+			"name": "user",
+			"description": "Toggle a role that will be automatically assigned to new users"
+		},
+		"bot": {
+			"name": "bot",
+			"description": "Toggle a role that will be automatically assigned to new bots"
+		},
+		"list": {
+			"name": "list",
+			"description": "List all roles that will be automatically assigned to new users or bots",
+			"response": {
+				"title": "Autoroles for {{- guild}}",
+				"description": "The following roles are being automatically assigned to new members.",
+				"user_one": "User Role",
+				"user_other": "User Roles",
+				"bot_one": "Bot Role",
+				"bot_other": "Bot Roles",
+				"none": "None"
+			}
+		},
+		"options": {
+			"role": {
+				"name": "role",
+				"description": "The role to toggle in the autoroles list"
+			}
+		},
+		"response": {
+			"title": "Added <@&{{role}}> to the autoroles list",
+			"titleRemoved": "Removed <@&{{role}}> from the autoroles list",
+			"description": "Every new {{type}} joining {{- guild}} will now be assigned the <@&{{role}}> role.",
+			"descriptionRemoved": "Every new {{type}} joining {{- guild}} will no longer be assigned the <@&{{role}}> role."
+		},
+		"types": {
+			"user": "user",
+			"bot": "bot"
+		}
+	},
+	"emoji": {
+		"name": "emoji",
+		"description": "Utility functions for emojis",
+		"list": {
+			"name": "list",
+			"description": "List all custom emojis of the server"
+		}
+	}
+}

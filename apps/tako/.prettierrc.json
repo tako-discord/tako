@@ -1,0 +1,8 @@
+{
+	"printWidth": 80,
+	"useTabs": true,
+	"singleQuote": true,
+	"quoteProps": "as-needed",
+	"trailingComma": "all",
+	"endOfLine": "lf"
+}

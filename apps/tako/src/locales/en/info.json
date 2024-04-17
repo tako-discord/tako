@@ -1,0 +1,135 @@
+{
+	"ping": {
+		"name": "ping",
+		"description": "Ping the bot",
+		"title": "Pong!",
+		"response": "{{latency, number}}ms."
+	},
+	"info": {
+		"name": "info",
+		"description": "Get info about anything",
+		"user": {
+			"name": "user",
+			"description": "Get info about a user or yourself",
+			"options": {
+				"user": {
+					"name": "user",
+					"description": "The user to get the info from"
+				}
+			},
+			"context": {
+				"name": "User Info"
+			},
+			"title": "Info for {{user}}",
+			"embedDescription": "Here is some information about <@{{user}}>",
+			"general": "General",
+			"username": "**Username**: {{username}}",
+			"id": "**ID**: {{id}}",
+			"flags": "**Flags**: {{- flags}}",
+			"noFlags": "*No Flags*",
+			"flag": {
+				"Staff": "Discord Staff",
+				"Partner": "Partnered Server Owner",
+				"HypeSquad": "HypeSquad Events",
+				"BugHunterLevel1": "Discord Bug Hunter",
+				"HypeSquadOnlineHouse1": "HypeSquad Bravery",
+				"HypeSquadOnlineHouse2": "HypeSquad Brilliance",
+				"HypeSquadOnlineHouse3": "HypeSquad Balance",
+				"PremiumEarlySupporter": "Early Supporter",
+				"TeamUser": "Team",
+				"BugHunterLevel2": "Discord Bug Hunter",
+				"VerifiedBot": "Verified Bot",
+				"VerifiedDeveloper": "Early Verified Bot Developer",
+				"CertifiedModerator": "Moderator Programs Alumni",
+				"BotHTTPInteractions": "Bot uses only HTTP interactions",
+				"Spammer": "Spammer",
+				"ActiveDeveloper": "Active Developer"
+			},
+			"created": "**Created on**: {{- date }} ({{- relative}})",
+			"avatar": "**Avatar**: ",
+			"banner": "**Banner**: ",
+			"server": "Server",
+			"joined": "**Joined on**: {{- date}} ({{- relative}})",
+			"unknown": "Unknown",
+			"roles": "**Roles**: {{- roles}}",
+			"noRoles": "*No Roles*",
+			"topRole": "**Top Role**: <@&{{role}}>",
+			"hoistRole": "**Hoist Role**: <@&{{role}}>",
+			"serverAvatar": "**Server Avatar**: ",
+			"serverBanner": "**Server Banner**: ",
+			"badges": "{{client}} Badges"
+		},
+		"badge": {
+			"name": "badge",
+			"description": "Get info about a badge",
+			"options": {
+				"badge": {
+					"name": "badge",
+					"description": "The badge to get the info from"
+				}
+			},
+			"notFound": {
+				"title": "Badge not found",
+				"description": "The badge `{{badge}}` could not be found"
+			}
+		},
+		"role": {
+			"name": "role",
+			"description": "Get info about a role",
+			"options": {
+				"role": {
+					"name": "role",
+					"description": "The role to get the info from"
+				}
+			},
+			"general": "General",
+			"properties": "Properties",
+			"fields": {
+				"name": "**Name**: {{name}}",
+				"id": "**ID**: `{{id}}`",
+				"color": "**Color**: {{- color}}",
+				"hoisted": "**Hoisted**: {{hoisted}}",
+				"mentionable": "**Mentionable** (by everyone): {{- mentionable}}",
+				"position": "**Position**: {{position}}",
+				"created": "**Created on**: {{- date }} ({{- relative}})",
+				"members": "**Members**: {{- members}}",
+				"moreMembers": " & {{amount, number}} more",
+				"noMembers": "*No Members*",
+				"managed": "**Managed by an integration**: {{managed}}",
+				"roleIcon": "**Role Icon**: {{- icon}}"
+			},
+			"title": "Info for {{- role}}"
+		}
+	},
+	"urban": {
+		"name": "urban-dictionary",
+		"description": "Search the Urban Dictionary",
+		"options": {
+			"term": {
+				"name": "term",
+				"description": "The term to search for"
+			},
+			"strict": {
+				"name": "strict",
+				"description": "Whether to use strict mode or not"
+			},
+			"matchCase": {
+				"name": "match-case",
+				"description": "Whether the results need to match the casing of the term"
+			},
+			"ephemeral": {
+				"name": "ephemeral",
+				"description": "Whether to send the response as an ephemeral message (only visible to you)"
+			}
+		},
+		"error": "An error occurred while searching the Urban Dictionary for `{{term}}`",
+		"error_404": "No results found for `{{term}}`",
+		"example": "Example",
+		"footer": "unofficialurbandictionaryapi.com • {{- date, datetime}}"
+	},
+	"help": {
+		"name": "help",
+		"description": "Get help for all things related to the bot",
+		"response": "Instead of a traditional help command, we offer you [our Documentation]({{- docs}}) for more information about the commands and concepts relevant to this bot.\n\nNeed even more help? Join our [Support Server]({{- support}}) for personal support!"
+	}
+}

@@ -1,0 +1,72 @@
+---
+import type { Props } from '@astrojs/starlight/props';
+import wordmarkDark from '../assets/wordmark_dark.svg';
+import wordmarkLight from '../assets/wordmark_light.svg';
+
+const href = '/' + Astro.props.locale;
+const logos = {
+	dark: {
+		src: wordmarkDark.src,
+		height: '40px',
+		width: '109px',
+	},
+	light: {
+		src: wordmarkLight.src,
+		height: '40px',
+		width: '109px',
+	},
+};
+---
+
+<a href="https://tako-bot.com" class="site-title sl-flex">
+	<>
+		<img
+			class="dark-only"
+			alt={'Taco with white text beside it, saying Tako'}
+			src={logos.dark.src}
+			height={logos.dark.height}
+			width={logos.dark.width}
+		/>
+		<img
+			class="light-only"
+			alt={'Taco with black text beside it, saying Tako'}
+			src={logos.light.src}
+			height={logos.light.height}
+			width={logos.light.width}
+		/>
+	</>
+</a>
+<a {href} class="ml-1 font-black font-display site-title">Docs</a>
+
+<style>
+	.site-title {
+		justify-self: flex-start;
+		max-width: 100%;
+		overflow: hidden;
+		align-items: center;
+		gap: var(--sl-nav-gap);
+		font-size: var(--sl-text-h4);
+		font-weight: 600;
+		color: var(--sl-color-text-accent);
+		text-decoration: none;
+		white-space: nowrap;
+		transition: transform 0.2s ease-out;
+	}
+	.site-title:hover,
+	.site-title:focus {
+		transform: translateY(-2px);
+	}
+	img {
+		height: calc(var(--sl-nav-height) - 2 * var(--sl-nav-pad-y));
+		width: auto;
+		max-width: 100%;
+		object-fit: contain;
+		object-position: 0 50%;
+	}
+	:global([data-theme='light']) .dark-only {
+		display: none;
+	}
+	:global([data-theme='dark']) .light-only {
+		display: none;
+	}
+</style>

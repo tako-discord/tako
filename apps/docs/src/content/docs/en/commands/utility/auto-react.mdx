@@ -1,0 +1,48 @@
+---
+title: Automatic Reactions
+description: |
+    A reference page for the '/auto-react' subcommand group inside the Tako Discord bot.
+    With '/auto-react', you can set up emojis that will be automatically be used to react on every new message sent in a channel. This can be useful for example to create a voting system or increase activity in read-only channels.
+---
+
+import { Tabs, TabItem } from '@astrojs/starlight/components';
+import Badge from '@astrojs/starlight/components/Badge.astro';
+
+With `/auto-react`, you can set up emojis that will be automatically be used to react on every new message sent in a channel. This can be useful for example to create a voting system or increase activity in read-only channels.
+
+## Usage/Subcommands
+<Tabs>
+    <TabItem label="Add">
+        `/auto-react add <emoji> [channel]`
+    </TabItem>
+    <TabItem label="Remove">
+        `/auto-react remove <emoji> [channel]`
+    </TabItem>
+    <TabItem label="List">
+        `/auto-react list [channel]`
+    </TabItem>
+</Tabs>
+
+## Permissions
+In order to use the `/auto-react` subcommands, you need to be able to `Add Reactions` & `Manage Expressions/Emojis`.
+:::tip
+You can change the permisions via `Server Settings > Integrations > Tako` in your Discord server.
+:::
+
+## Options
+<Tabs>
+    <TabItem label="Emoji">
+        The emoji to add or remove from the auto-reactions list.
+        This can either be a custom emoji or a unicode/default emoji. You can just type in the emoji like you would in the regular chatbox.
+    </TabItem>
+    <TabItem label="Channel">
+        <Badge text="Default: The channel you execute the command from" />
+        The channel to add, remove or list auto-reactions.
+    </TabItem>
+</Tabs>
+
+## How it works
+Once you have any emojis added to the auto-reactions list of a channel, those emojis will be automatically added as reactions to every new message sent in that channel.
+
+Please note that if you provide an emoji that can't be accessed by the bot, it will be removed from the auto-reactions list automatically.
+That means that if you use a custom emoji, the bot needs to have access to the server where the emoji is from.

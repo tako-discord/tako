@@ -1,0 +1,48 @@
+---
+title: Autoroles
+description: |
+    A reference page for the '/autoroles' subcommand group inside the Tako Discord bot.
+    With '/autoroles', you can set up to assign roles to users or bots when they join your server.
+---
+
+import { Tabs, TabItem } from '@astrojs/starlight/components';
+import Badge from '@astrojs/starlight/components/Badge.astro';
+
+With `/autoroles`, you can set up to assign roles to users or bots when they join your server. The autoroles list is seperated between users and bots, so you can assign different roles to each.
+
+## Usage/Subcommands
+<Tabs>
+    <TabItem label="User">
+        `/autoroles user <role>`
+
+        **Example**:
+        `/autoroles user @Member` will add the `@Member` role to the autoroles list for users, and if executed again, it will be removed.
+    </TabItem>
+    <TabItem label="Bot">
+        `/autoroles bot <role>`
+
+        **Example**:
+        `/autoroles bot @Bot` will add the `@Bot` role to the autoroles list for bots, and if executed again, it will be removed.
+    </TabItem>
+    <TabItem label="List">
+        `/autoroles list`
+    </TabItem>
+</Tabs>
+
+## Permissions
+In order to use the `/autoroles` subcommands, you need the `Manage Server` & `Manage Roles` permisions.
+:::tip
+You can change the permisions via `Server Settings > Integrations > Tako` in your Discord server.
+:::
+
+## Options
+<Tabs>
+    <TabItem label="Role">
+        The role to toggle in the selected autoroles list.
+    </TabItem>
+</Tabs>
+
+## How it works
+Each server has a list of autoroles for users and bots. The list is seperated between users and bots, so you can assign different roles to each.
+
+When a user or bot joins the server, the bot will check if the user or bot has any roles in the autoroles list and assign them if they do.

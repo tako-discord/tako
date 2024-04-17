@@ -1,0 +1,108 @@
+{
+	"ping": {
+		"name": "ping",
+		"description": "Pinge den Bot",
+		"title": "Pong!",
+		"response": "{{latency, number}}ms."
+	},
+	"info": {
+		"name": "info",
+		"description": "Erhalte Informationen über irgendwas",
+		"user": {
+			"name": "nutzer",
+			"description": "Erhalte Informationen über einen Nutzer oder dich selbst",
+			"options": {
+				"user": {
+					"name": "nutzer",
+					"description": "Der Nutzer, über den du Informationen erhalten möchtest"
+				}
+			},
+			"context": {
+				"name": "Nutzer-Info"
+			},
+			"title": "Infos für {{user}}",
+			"embedDescription": "Hier sind ein paar Informationen über <@{{user}}>",
+			"general": "Generell",
+			"username": "**Benutzername**: {{username}}",
+			"id": "**ID**: {{id}}",
+			"flags": "**Flaggen**: {{- flags}}",
+			"noFlags": "*Keine Flaggen*",
+			"flag": {
+				"Staff": "Discord Mitarbeiter",
+				"Partner": "Eigentümer eines Partner-Servers",
+				"HypeSquad": "HypeSquad-Events",
+				"BugHunterLevel1": "Discord Bug Hunter",
+				"HypeSquadOnlineHouse1": "HypeSquad Bravery",
+				"HypeSquadOnlineHouse2": "HypeSquad Brilliance",
+				"HypeSquadOnlineHouse3": "HypeSquad Balance",
+				"PremiumEarlySupporter": "Supporter der ersten Stunde",
+				"TeamUser": "Team",
+				"BugHunterLevel2": "Discord Bug Hunter",
+				"VerifiedBot": "Verifizierter Bot",
+				"VerifiedDeveloper": "Verifizierter Bot-Entwickler der ersten Stunde",
+				"CertifiedModerator": "Alumni vom Moderatoren-Programm",
+				"BotHTTPInteractions": "Bot nutzt nur HTTP Interaktionen",
+				"Spammer": "Spammer",
+				"ActiveDeveloper": "Aktiver Entwickler"
+			},
+			"created": "**Erstellt am**: {{- date }} ({{- relative}})",
+			"avatar": "**Profilbild**: ",
+			"banner": "**Banner**: ",
+			"server": "Server",
+			"joined": "**Beigetreten am**: {{- date}} ({{- relative}})",
+			"unknown": "Unbekannt",
+			"roles": "**Rollen**: {{- roles}}",
+			"noRoles": "*Keine Rollen*",
+			"topRole": "**Höchste Rolle**: <@&{{role}}>",
+			"hoistRole": "**Hoist Rolle**: <@&{{role}}>",
+			"serverAvatar": "**Server Avatar**: ",
+			"serverBanner": "**Server Banner**: ",
+			"badges": "{{client}} Abzeichen"
+		},
+		"badge": {
+			"name": "abzeichen",
+			"description": "Erhalte Infos über ein Abzeichen",
+			"options": {
+				"badge": {
+					"name": "abzeichen",
+					"description": "Das Abzeichen, über das du Informationen erhalten möchtest"
+				}
+			},
+			"notFound": {
+				"title": "Abzeichen nicht gefunden",
+				"description": "Das Abzeichen `{{badge}}` konnte nicht gefunden werden"
+			}
+		}
+	},
+	"urban": {
+		"name": "urban-dictionary",
+		"description": "Suche im Urban Dictionary",
+		"options": {
+			"term": {
+				"name": "begriff",
+				"description": "Der Begriff, nach dem gesucht werden soll"
+			},
+			"strict": {
+				"name": "streng",
+				"description": "Ob der strenge Modus verwendet werden soll oder nicht"
+			},
+			"matchCase": {
+				"name": "match-case",
+				"description": "Ob die Ergebnisse mit der Groß- und Kleinschreibung des Begriffs übereinstimmen müssen"
+			},
+			"ephemeral": {
+				"name": "vergänglich",
+				"description": "Ob die Antwort als vergängliche Nachricht gesendet werden soll (nur für dich sichtbar)"
+			}
+		},
+		"error": "Bei der Suche im Urban Dictionary nach `{{term}}` ist ein Fehler aufgetreten",
+		"error_404": "Es wurden keine Ergebnisse gefunden für `{{term}}`",
+		"example": "Beispiel",
+		"footer": "unofficialurbandictionaryapi.com • {{- date, datetime}}"
+	},
+	"help": {
+		"name": "hilfe",
+		"description": "Erhalte Hilfe für alle Dinge rund um den Bot",
+		"response": "Anstelle eines traditionellen Hilf-Befehls bieten wir dir [unsere Dokumentation]({{- docs}}) für mehr Informationen über Befehle und Konzepte relevant für diesen Bot.\n\nBrauchst du noch mehr Hilfe? Tritt unserem [Support Server]({{- support}}) für persönliche Unterstützung bei!"
+	}
+}

@@ -1,0 +1,42 @@
+{
+	"uwuify": {
+		"name": "uwuify",
+		"description": "uwuify t~text uwu",
+		"options": {
+			"message": {
+				"name": "message",
+				"description": "Your message"
+			},
+			"stutters": {
+				"name": "stutters",
+				"description": "Chance of s~s~stuttering (in %, default: 10%)"
+			},
+			"faces": {
+				"name": "faces",
+				"description": "Chance of adding a face ^w^ (in %, default: 0%)"
+			},
+			"actions": {
+				"name": "actions",
+				"description": "Chance of adding an action *blushes* (in %, default: 5%)"
+			},
+			"exclamations": {
+				"name": "exclamations",
+				"description": "Chance of replacing an exclamation!1!! (in %, default: 25%)"
+			}
+		}
+	},
+	"ip": {
+		"name": "ip",
+		"description": "Get the IP of an user",
+		"options": {
+			"user": {
+				"name": "user",
+				"description": "The user to get the IP of"
+			}
+		},
+		"embed": {
+			"author": "{{user}}'s IP",
+			"footer": "For legal reasons, this is a joke."
+		}
+	}
+}

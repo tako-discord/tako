@@ -1,0 +1,176 @@
+{
+	"changeLanguage": {
+		"name": "sæt-sprog",
+		"description": "Skift sproget på botten",
+		"personal": {
+			"name": "personlig",
+			"description": "Skift sprog i bot til dig selv og personlige beskeder"
+		},
+		"server": {
+			"name": "server",
+			"description": "Skift sprog for bot'en på hele serveren"
+		},
+		"options": {
+			"language": {
+				"name": "sprog",
+				"description": "Det sprog, du vil bruge til botten"
+			}
+		},
+		"response": "Sproget blev ændret til `{{language}}`"
+	},
+	"stickyMessages": {
+		"name": "sticky-besked",
+		"description": "Sticky meddelser giver dig mulighed for at vise en besked i bunden af en kanal",
+		"set": {
+			"name": "sæt",
+			"description": "Indstil den klæbende besked",
+			"options": {
+				"channel": {
+					"name": "kanal",
+					"description": "Den kanal, som sticky-beskeden skal placeres i"
+				},
+				"embed": {
+					"name": "embed",
+					"description": "Om beskeden skal sendes som en embed eller ej"
+				}
+			},
+			"modal": {
+				"title": "Klæbrige Beskeder",
+				"label": "Besked",
+				"placeholder": "Indtast din besked her. Den vil altid blive vist i bunden af kanalen.",
+				"response": "Det lykkedes at indstille sticky message til {{-channel}}!"
+			}
+		}
+	},
+	"quickTranslate": {
+		"name": "",
+		"tooltip": "Vil du ændre sproget? Brug \"{{- command}}\"!",
+		"noContent": "Beskeden er enten tom eller bare en indlejring. Send venligst en besked med gyldigt indhold næste gang!",
+		"original": "Gå tilbage til den oprindelige besked"
+	},
+	"feedback": {
+		"name": "feedback",
+		"description": "Send feedback til udviklerne",
+		"options": {
+			"priority": {
+				"name": "prioritet",
+				"description": "Prioriteringen af din feedback",
+				"choices": {
+					"none": "Ingen",
+					"low": "Lavt",
+					"normal": "Normalt",
+					"high": "Høj",
+					"urgent": "Haster"
+				}
+			}
+		},
+		"modal": {
+			"title": "Feedback",
+			"response": {
+				"title": "Din Feedback er blevet sendt!"
+			},
+			"error": {
+				"title": "Der opstod en fejl, da du sendte din feedback.",
+				"description": "Prøv venligst igen senere. Hvis denne fejl fortsætter, bedes du kontakte udviklerne via deres [support server](<{{supportServer}}>)."
+			},
+			"feedbackTitle": {
+				"id": "",
+				"label": "Titel",
+				"placeholder": "Giv din feedback en titel her. Det vil hjælpe os med at kategorisere din feedback."
+			},
+			"message": {
+				"id": "",
+				"label": "Din Besked",
+				"placeholder": "Skriv din feedback her"
+			}
+		}
+	},
+	"autoReact": {
+		"name": "auto-reaktion",
+		"description": "Reagerer automatisk på alle nye beskeder i en kanal med en bestemt emoji",
+		"add": {
+			"name": "tilføj",
+			"description": "Tilføj en emoji, der automatisk vil blive tilføjet til hver ny besked i kanalen",
+			"options": {
+				"emoji": {
+					"name": "emoji",
+					"description": "Den emoji, der skal tilføjes. Kan være en brugerdefineret emoji eller en unicode-emoji."
+				},
+				"channel": {
+					"name": "kanal",
+					"description": "Den kanal, emojien skal tilføjes til. Hvis den ikke er angivet, vil den aktuelle kanal blive brugt."
+				}
+			},
+			"title": "Tilføjet succesfuldt!",
+			"response": "Hver ny besked i <#{{channel}}> vil nu blive reageret på med {{- emojis}}."
+		},
+		"remove": {
+			"name": "fjern",
+			"description": "Fjern en emoji, der automatisk tilføjes til alle nye beskeder i kanalen",
+			"options": {
+				"emoji": {
+					"name": "emoji",
+					"description": "Den emoji, der skal fjernes. Kan være en brugerdefineret emoji eller en unicode-emoji."
+				},
+				"channel": {
+					"name": "kanal",
+					"description": "Den kanal, emojien skal fjernes fra. Hvis den ikke er angivet, vil den aktuelle kanal blive brugt."
+				}
+			},
+			"title": "Fjernet succesfuldt!",
+			"response": "Der vil ikke være flere automatiske reaktioner i <#{{channel}}> fra nu af."
+		},
+		"list": {
+			"name": "liste",
+			"description": "Liste over alle emojis der automatisk vil blive tilføjet til hver ny besked i kanalen",
+			"options": {
+				"channel": {
+					"name": "kanal",
+					"description": "Den kanal der skal listes emoji(-erne) af. Hvis ikke angivet, vil den aktuelle kanal blive brugt."
+				}
+			},
+			"response": "Følgende emojis bliver automatisk tilføjet til hver ny besked i <#{{channel}}>:"
+		}
+	},
+	"autoRoles": {
+		"name": "",
+		"description": "",
+		"user": {
+			"name": "",
+			"description": ""
+		},
+		"bot": {
+			"name": "",
+			"description": ""
+		},
+		"list": {
+			"name": "",
+			"description": "",
+			"response": {
+				"title": "",
+				"description": "",
+				"user_one": "",
+				"user_other": "",
+				"bot_one": "",
+				"bot_other": "",
+				"none": ""
+			}
+		},
+		"options": {
+			"role": {
+				"name": "",
+				"description": ""
+			}
+		},
+		"response": {
+			"title": "",
+			"titleRemoved": "",
+			"description": "",
+			"descriptionRemoved": ""
+		},
+		"types": {
+			"user": "",
+			"bot": ""
+		}
+	}
+}

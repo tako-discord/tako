@@ -1,0 +1,31 @@
+{
+	"checks": {
+		"devOnly": {
+			"title": "",
+			"description": ""
+		}
+	},
+	"language": {
+		"invalidLanguage": {
+			"title": "",
+			"description": ""
+		}
+	},
+	"serverRequired": {
+		"title": "",
+		"description": ""
+	},
+	"noPermission": {
+		"title": "",
+		"description_one": "",
+		"description_other": "",
+		"permissions": {
+			"manageGuild": ""
+		}
+	},
+	"autoReact": {
+		"maxEmojis": "",
+		"noTextChannel": "",
+		"noEmojis": ""
+	}
+}

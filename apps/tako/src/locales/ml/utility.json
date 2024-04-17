@@ -1,0 +1,176 @@
+{
+	"changeLanguage": {
+		"name": "സെറ്റ്-ഭാഷ",
+		"description": "ബോട്ടിന്റെ ഭാഷ മാറ്റുക",
+		"personal": {
+			"name": "വ്യക്തിപരം",
+			"description": "നിങ്ങൾക്കും വ്യക്തിഗത സന്ദേശങ്ങൾക്കും ബോട്ടിന്റെ ഭാഷ മാറ്റുക"
+		},
+		"server": {
+			"name": "സെർവർ",
+			"description": "മുഴുവൻ സെർവറിനുമായി ബോട്ടിന്റെ ഭാഷ മാറ്റുക"
+		},
+		"options": {
+			"language": {
+				"name": "ഭാഷ",
+				"description": "ബോട്ടിനായി നിങ്ങൾ ഉപയോഗിക്കാൻ ആഗ്രഹിക്കുന്ന ഭാഷ"
+			}
+		},
+		"response": "ഭാഷ `{{language}}` എന്നതിലേക്ക് മാറ്റി"
+	},
+	"stickyMessages": {
+		"name": "സ്ഥിരമായ-സന്ദേശം",
+		"description": "ഒരു ചാനലിന്റെ ചുവടെ ഒരു സന്ദേശം പ്രദർശിപ്പിക്കാൻ സ്ഥിരമായ സന്ദേശങ്ങൾ നിങ്ങളെ അനുവദിക്കുന്നു",
+		"set": {
+			"name": "സെറ്റ്",
+			"description": "സ്ഥിരമായ സന്ദേശം സജ്ജമാക്കുക",
+			"options": {
+				"channel": {
+					"name": "ചാനൽ",
+					"description": "സ്ഥിരമായ സന്ദേശം സജ്ജീകരിക്കാനുള്ള ചാനൽ"
+				},
+				"embed": {
+					"name": "ഉൾച്ചേർക്കുക",
+					"description": "സന്ദേശം ഒരു എംബഡ് ആയി അയക്കണോ വേണ്ടയോ എന്ന്"
+				}
+			},
+			"modal": {
+				"title": "സ്ഥിരമായ സന്ദേശങ്ങൾ",
+				"label": "സന്ദേശം",
+				"placeholder": "നിങ്ങളുടെ സന്ദേശം ഇവിടെ നൽകുക. ഇത് എല്ലായ്പ്പോഴും ചാനലിന്റെ ചുവടെ പ്രദർശിപ്പിക്കും.",
+				"response": "{{-channel}} എന്നതിനായി സ്റ്റിക്കി സന്ദേശം സജ്ജീകരിച്ചു!"
+			}
+		}
+	},
+	"quickTranslate": {
+		"name": "",
+		"tooltip": "",
+		"noContent": "",
+		"original": ""
+	},
+	"feedback": {
+		"name": "",
+		"description": "",
+		"options": {
+			"priority": {
+				"name": "",
+				"description": "",
+				"choices": {
+					"none": "",
+					"low": "",
+					"normal": "",
+					"high": "",
+					"urgent": ""
+				}
+			}
+		},
+		"modal": {
+			"title": "",
+			"response": {
+				"title": ""
+			},
+			"error": {
+				"title": "",
+				"description": ""
+			},
+			"feedbackTitle": {
+				"id": "",
+				"label": "",
+				"placeholder": ""
+			},
+			"message": {
+				"id": "",
+				"label": "",
+				"placeholder": ""
+			}
+		}
+	},
+	"autoReact": {
+		"name": "",
+		"description": "",
+		"add": {
+			"name": "",
+			"description": "",
+			"options": {
+				"emoji": {
+					"name": "",
+					"description": ""
+				},
+				"channel": {
+					"name": "",
+					"description": ""
+				}
+			},
+			"title": "",
+			"response": ""
+		},
+		"remove": {
+			"name": "",
+			"description": "",
+			"options": {
+				"emoji": {
+					"name": "",
+					"description": ""
+				},
+				"channel": {
+					"name": "",
+					"description": ""
+				}
+			},
+			"title": "",
+			"response": ""
+		},
+		"list": {
+			"name": "",
+			"description": "",
+			"options": {
+				"channel": {
+					"name": "",
+					"description": ""
+				}
+			},
+			"response": ""
+		}
+	},
+	"autoRoles": {
+		"name": "",
+		"description": "",
+		"user": {
+			"name": "",
+			"description": ""
+		},
+		"bot": {
+			"name": "",
+			"description": ""
+		},
+		"list": {
+			"name": "",
+			"description": "",
+			"response": {
+				"title": "",
+				"description": "",
+				"user_one": "",
+				"user_other": "",
+				"bot_one": "",
+				"bot_other": "",
+				"none": ""
+			}
+		},
+		"options": {
+			"role": {
+				"name": "",
+				"description": ""
+			}
+		},
+		"response": {
+			"title": "",
+			"titleRemoved": "",
+			"description": "",
+			"descriptionRemoved": ""
+		},
+		"types": {
+			"user": "",
+			"bot": ""
+		}
+	}
+}

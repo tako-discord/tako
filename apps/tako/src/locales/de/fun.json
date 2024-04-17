@@ -1,0 +1,42 @@
+{
+	"uwuify": {
+		"name": "uwuify",
+		"description": "uwuify t~text uwu",
+		"options": {
+			"message": {
+				"name": "nachricht",
+				"description": "Deine Nachricht"
+			},
+			"stutters": {
+				"name": "stottern",
+				"description": "Wahrscheinlichkeit von s~s~stottern (in %, Standard: 10%)"
+			},
+			"faces": {
+				"name": "gesichter",
+				"description": "Wahrscheinlichkeit von Gesichtern ^w^ (in %, Standard: 0%)"
+			},
+			"actions": {
+				"name": "aktionen",
+				"description": "Wahrscheinlichkeit von Aktionen *errötet* (in %, Standard: 5%)"
+			},
+			"exclamations": {
+				"name": "ausrufe",
+				"description": "Chance zum Ersetzen von Ausrufen!1!! (in %, Standard: 25%)"
+			}
+		}
+	},
+	"ip": {
+		"name": "ip",
+		"description": "Kriege die IP eines Benutzers",
+		"options": {
+			"user": {
+				"name": "nutzer",
+				"description": "Der Nutzer, von dem du IP-Adresse erhalten möchtest"
+			}
+		},
+		"embed": {
+			"author": "{{user}}'s IP",
+			"footer": "Aus rechtlichen Gründen ist das ein Scherz."
+		}
+	}
+}

@@ -1,0 +1,18 @@
+{
+	"alpha_tester": {
+		"name": "Beta Tester",
+		"description": ""
+	},
+	"translator": {
+		"name": "Oversætter",
+		"description": "Brugere, der har oversat botten til andre sprog via {{- translationLink}}"
+	},
+	"donator": {
+		"name": "Donator",
+		"description": "Brugere, der har doneret til botten via {{- donationLink}}"
+	},
+	"core_developer": {
+		"name": "Kerneudvikler",
+		"description": ""
+	}
+}

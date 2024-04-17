@@ -1,0 +1,108 @@
+{
+	"ping": {
+		"name": "",
+		"description": "",
+		"title": "",
+		"response": ""
+	},
+	"info": {
+		"name": "",
+		"description": "",
+		"user": {
+			"name": "",
+			"description": "",
+			"options": {
+				"user": {
+					"name": "",
+					"description": ""
+				}
+			},
+			"context": {
+				"name": ""
+			},
+			"title": "",
+			"embedDescription": "",
+			"general": "",
+			"username": "",
+			"id": "",
+			"flags": "",
+			"noFlags": "",
+			"flag": {
+				"Staff": "",
+				"Partner": "",
+				"HypeSquad": "",
+				"BugHunterLevel1": "",
+				"HypeSquadOnlineHouse1": "",
+				"HypeSquadOnlineHouse2": "",
+				"HypeSquadOnlineHouse3": "",
+				"PremiumEarlySupporter": "",
+				"TeamUser": "",
+				"BugHunterLevel2": "",
+				"VerifiedBot": "",
+				"VerifiedDeveloper": "",
+				"CertifiedModerator": "",
+				"BotHTTPInteractions": "",
+				"Spammer": "",
+				"ActiveDeveloper": ""
+			},
+			"created": "",
+			"avatar": "",
+			"banner": "",
+			"server": "",
+			"joined": "",
+			"unknown": "",
+			"roles": "",
+			"noRoles": "",
+			"topRole": "",
+			"hoistRole": "",
+			"serverAvatar": "",
+			"serverBanner": "",
+			"badges": ""
+		},
+		"badge": {
+			"name": "",
+			"description": "",
+			"options": {
+				"badge": {
+					"name": "",
+					"description": ""
+				}
+			},
+			"notFound": {
+				"title": "",
+				"description": ""
+			}
+		}
+	},
+	"urban": {
+		"name": "",
+		"description": "",
+		"options": {
+			"term": {
+				"name": "",
+				"description": ""
+			},
+			"strict": {
+				"name": "",
+				"description": ""
+			},
+			"matchCase": {
+				"name": "",
+				"description": ""
+			},
+			"ephemeral": {
+				"name": "",
+				"description": ""
+			}
+		},
+		"error": "",
+		"error_404": "",
+		"example": "",
+		"footer": ""
+	},
+	"help": {
+		"name": "",
+		"description": "",
+		"response": ""
+	}
+}

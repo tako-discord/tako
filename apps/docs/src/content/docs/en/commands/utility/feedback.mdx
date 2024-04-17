@@ -1,0 +1,34 @@
+---
+title: Feedback for the bot devs
+description: A reference page for the "/feedback" command inside the Tako Discord bot.
+---
+
+import { Tabs, TabItem } from '@astrojs/starlight/components';
+import Badge from '@astrojs/starlight/components/Badge.astro';
+
+With `/feedback`, you can send feedback directly to the developers of the bot. This command is used to report bugs, suggest new features, or just to give general feedback about the bot.
+
+## Usage
+<Tabs>
+	<TabItem label="Slash Commands">
+        <code>/feedback [priority]</code>
+    </TabItem>
+</Tabs>
+
+## Options
+<Tabs>
+    <TabItem label="Priority">
+        <Badge text="Default: None" />
+        The priority of the feedback. You will be presented with a list of priorities to choose from.
+
+        - None
+        - Low
+        - Normal
+        - High
+        - Urgent
+    </TabItem>
+</Tabs>
+
+## Output
+
+This command will open up a modal with a text box. If you fill it out and continue, the feedback will be directly send to the Inbox of the developers. They will then review it and take action if necessary.

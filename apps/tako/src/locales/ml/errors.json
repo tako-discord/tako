@@ -1,0 +1,31 @@
+{
+	"checks": {
+		"devOnly": {
+			"title": "രഹസ്യ കാര്യങ്ങൾ",
+			"description": "ഈ കമാൻഡ് പ്രവർത്തിപ്പിക്കുന്നതിന് നിങ്ങൾ ബോട്ടിന്റെ ഒരു ഡെവലപ്പർ ആയിരിക്കണം."
+		}
+	},
+	"language": {
+		"invalidLanguage": {
+			"title": "അസാധുവായ ഭാഷ",
+			"description": "അതൊരു സാധുവായ ഭാഷയല്ല. ദയവായി `xx` (`en`, `de`, മുതലായവ) അല്ലെങ്കിൽ `xx-XX` (`en-US`, `zh-CN` മുതലായവ) ഫോർമാറ്റ് പിന്തുടരുക, അതേസമയം `x` ഒരു ഭാഗത്തെ പ്രതിനിധീകരിക്കുന്നു. നിങ്ങളുടെ ഭാഷാ കോഡിന്റെ."
+		}
+	},
+	"serverRequired": {
+		"title": "സെർവർ ആവശ്യമാണ്",
+		"description": "നിങ്ങൾ ഈ കമാൻഡ് ഒരു സെർവറിൽ പ്രവർത്തിപ്പിക്കേണ്ടതുണ്ട്."
+	},
+	"noPermission": {
+		"title": "",
+		"description_one": "",
+		"description_other": "",
+		"permissions": {
+			"manageGuild": ""
+		}
+	},
+	"autoReact": {
+		"maxEmojis": "",
+		"noTextChannel": "",
+		"noEmojis": ""
+	}
+}

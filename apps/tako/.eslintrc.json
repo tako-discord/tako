@@ -1,0 +1,17 @@
+{
+	"root": true,
+	"extends": ["neon/common", "neon/node", "neon/typescript", "neon/prettier"],
+	"parserOptions": {
+		"project": ["./tsconfig.json"]
+	},
+	"plugins": ["@stylistic"],
+	"ignorePatterns": ["dist/*", "node_modules/*"],
+	"rules": {
+		"@stylistic/max-len": [
+			"warn",
+			{
+				"code": 120
+			}
+		]
+	}
+}

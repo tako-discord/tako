@@ -1,0 +1,31 @@
+{
+	"checks": {
+		"devOnly": {
+			"title": "Geheime Sachen",
+			"description": "Du musst ein Entwickler sein, um diesen Befehl zu benutzen."
+		}
+	},
+	"language": {
+		"invalidLanguage": {
+			"title": "Ungültige Sprache",
+			"description": "Das ist keine gültige Sprache. Bitte folge dem Format `xx` (`en`, `de`, etc.), oder `xx-XX` (`en-US`, `zh-CN`, etc.), während `x` einen Teil deines Sprachcodes darstellt."
+		}
+	},
+	"serverRequired": {
+		"title": "Server erforderlich",
+		"description": "Du musst diesen Befehl auf einem Server ausführen."
+	},
+	"noPermission": {
+		"title": "Keine Berechtigung",
+		"description_one": "Du hast keine Berechtigung, diesen Befehl auszuführen. Du brauchst die folgende Berechtigung: `{{permission}}`.",
+		"description_other": "Du hast keine Berechtigung, diesen Befehl auszuführen. Du brauchst die folgenden Berechtigungen: `{{permission}}`.",
+		"permissions": {
+			"manageGuild": "Server verwalten"
+		}
+	},
+	"autoReact": {
+		"maxEmojis": "Du kannst nur maximal 20 Emojis in deiner Auto-Reaktions-Liste haben.",
+		"noTextChannel": "Du musst diesen Befehl in einem Textkanal ausführen.",
+		"noEmojis": "Es gibt keine Emojis in der Auto-Reaktions-Liste von <#{{channel}}>."
+	}
+}

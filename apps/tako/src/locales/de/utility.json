@@ -1,0 +1,176 @@
+{
+	"changeLanguage": {
+		"name": "sprache-setzen",
+		"description": "Ändere die Sprache des Bots",
+		"personal": {
+			"name": "persönlich",
+			"description": "Ändern Sie die Sprache des Bots für dich selbst und persönliche Nachrichten"
+		},
+		"server": {
+			"name": "server",
+			"description": "Wechselt die Sprache des Bots für den gesamten Server"
+		},
+		"options": {
+			"language": {
+				"name": "sprache",
+				"description": "Die Sprache, die du für den Bot verwenden möchtest"
+			}
+		},
+		"response": "Die Sprache wurde erfolgreich zu `{{language}}` geändert"
+	},
+	"stickyMessages": {
+		"name": "haftende-nachricht",
+		"description": "Haftende Nachrichten werden immer ganz unten in einem Kanal angezeigt",
+		"set": {
+			"name": "setzen",
+			"description": "Setzt eine haftende Nachricht in einem Kanal",
+			"options": {
+				"channel": {
+					"name": "kanal",
+					"description": "Der Kanal in dem die Nachricht gesendet werden soll"
+				},
+				"embed": {
+					"name": "embed",
+					"description": "Soll die Nachricht als Embed gesendet werden?"
+				}
+			},
+			"modal": {
+				"title": "Haftende Nachrichten",
+				"label": "Nachricht",
+				"placeholder": "Gebe hier deine Nachricht ein. Sie wird immer ganz unten im Kanal angezeigt.",
+				"response": "Erfolgreich die haftende Nachricht für {{-channel}} gesetzt!"
+			}
+		}
+	},
+	"quickTranslate": {
+		"name": "Schnell übersetzen",
+		"tooltip": "Willst du die Sprache ändern? Verwende \"{{- command}}\"!",
+		"noContent": "Die Nachricht ist entweder leer oder nur eine Embed. Bitte gib beim nächsten Mal eine Nachricht mit gültigem Inhalt ein!",
+		"original": "Zurück zur ursprünglichen Nachricht"
+	},
+	"feedback": {
+		"name": "feedback",
+		"description": "Sende Feedback an die Entwickler",
+		"options": {
+			"priority": {
+				"name": "priorität",
+				"description": "Die Priorität deines Feedbacks",
+				"choices": {
+					"none": "Keine",
+					"low": "Niedrig",
+					"normal": "Normal",
+					"high": "Hoch",
+					"urgent": "Dringend"
+				}
+			}
+		},
+		"modal": {
+			"title": "Feedback",
+			"response": {
+				"title": "Feedback erfolgreich gesendet!"
+			},
+			"error": {
+				"title": "Beim Senden deines Feedbacks ist ein Fehler aufgetreten.",
+				"description": "Bitte versuche es später noch einmal. Wenn dieser Fehler jedoch weiterhin besteht, kontaktiere bitte die Entwickler über ihren [Support-Server](<{{supportServer}}>)."
+			},
+			"feedbackTitle": {
+				"id": "feedbackTitle",
+				"label": "Titel",
+				"placeholder": "Gib hier einen Titel für dein Feedback ein. Das hilft uns, dein Feedback zu kategorisieren."
+			},
+			"message": {
+				"id": "feedbackMessage",
+				"label": "Deine Nachricht",
+				"placeholder": "Gebe hier dein Feedback ein"
+			}
+		}
+	},
+	"autoReact": {
+		"name": "automatisches-reagieren",
+		"description": "Reagiert automatisch auf jede neue Nachricht in einem Kanal mit einem festgelegten Emoji",
+		"add": {
+			"name": "hinzufügen",
+			"description": "Füge ein Emoji hinzu, der automatisch zu jeder neuen Nachricht im Kanal hinzugefügt wird",
+			"options": {
+				"emoji": {
+					"name": "emoji",
+					"description": "Das hinzuzufügende Emoji. Es kann ein benutzerdefiniertes Emoji oder ein Unicode-Emoji sein."
+				},
+				"channel": {
+					"name": "kanal",
+					"description": "Der Kanal, dem das Emoji hinzugefügt wird. Wenn nicht angegeben, wird der aktuelle Kanal verwendet."
+				}
+			},
+			"title": "Erfolgreich hinzugefügt!",
+			"response": "Auf jede neue Nachricht in <#{{channel}}> wird nun mit {{- emojis}} reagiert."
+		},
+		"remove": {
+			"name": "entfernen",
+			"description": "Entferne ein Emoji, das automatisch zu jeder neuen Nachricht im Kanal hinzugefügt wird",
+			"options": {
+				"emoji": {
+					"name": "emoji",
+					"description": "Das zu entfernende Emoji. Kann ein benutzerdefiniertes Emoji oder ein Unicode-Emoji sein."
+				},
+				"channel": {
+					"name": "kanal",
+					"description": "Der Kanal, aus dem das Emoji entfernt wird. Wenn nicht angegeben, wird der aktuelle Kanal verwendet."
+				}
+			},
+			"title": "Erfolgreich entfernt!",
+			"response": "Von nun an wird es keine automatischen Reaktionen in <#{{channel}}> mehr geben."
+		},
+		"list": {
+			"name": "liste",
+			"description": "Listet alle Emojis auf, die automatisch zu jeder neuen Nachricht im Kanal hinzugefügt werden",
+			"options": {
+				"channel": {
+					"name": "kanal",
+					"description": "Der Kanal, dessen Emoji(s) gelistet werden. Wenn nicht angegeben, wird der aktuelle Kanal benutzt."
+				}
+			},
+			"response": "Die folgenden Emojis werden automatisch zu jeder neuen Nachricht in <#{{channel}}> hinzugefügt:"
+		}
+	},
+	"autoRoles": {
+		"name": "autorollen",
+		"description": "Rollen automatisch Benutzern oder Bots zuweisen, wenn sie dem Server beitreten",
+		"user": {
+			"name": "nutzer",
+			"description": "Rolle umschalten, die automatisch neuen Mitgliedern hinzugefügt wird"
+		},
+		"bot": {
+			"name": "bot",
+			"description": "Rolle umschalten, die automatisch neuen Bots hinzugefügt wird"
+		},
+		"list": {
+			"name": "liste",
+			"description": "Alle Rollen auflisten, die automatisch zu neuen Nutzern oder Bots hinzugefügt werden",
+			"response": {
+				"title": "Autorollen für {{- guild}}",
+				"description": "Die folgenden Rollen werden neuen Mitgliedern automatisch zugewiesen.",
+				"user_one": "Benutzer-Rolle",
+				"user_other": "Benutzer-Rollen",
+				"bot_one": "Bot-Rolle",
+				"bot_other": "Bot-Rollen",
+				"none": "Keine"
+			}
+		},
+		"options": {
+			"role": {
+				"name": "rolle",
+				"description": "Die Rolle, die in der Autorollenliste umgeschaltet werden soll"
+			}
+		},
+		"response": {
+			"title": "<@&{{role}}> zur Liste der Autorollen hinzugefügt",
+			"titleRemoved": "<@&{{role}}> von der Liste der Autorollen entfernt",
+			"description": "Jeder neue {{type}}, der {{- guild}} beitritt, bekommt nun die Rolle <@&{{role}}> zugewiesen.",
+			"descriptionRemoved": "Jeder neue {{type}}, der {{- guild}} beitritt, bekommt nun nicht mehr die Rolle <@&{{role}}> zugewiesen."
+		},
+		"types": {
+			"user": "Nutzer",
+			"bot": "Bot"
+		}
+	}
+}

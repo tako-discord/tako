@@ -1,0 +1,18 @@
+{
+	"alpha_tester": {
+		"name": "Alpha Tester",
+		"description": "Benutzer, die den Bot im geschlossenen Alpha-Programm getestet haben"
+	},
+	"translator": {
+		"name": "Übersetzer",
+		"description": "Benutzer, die den Bot über {{- translationLink}} in andere Sprachen übersetzt haben"
+	},
+	"donator": {
+		"name": "Spender",
+		"description": "Nutzer, die dem Bot über {{- donationLink}} finanziell unterstützt haben"
+	},
+	"core_developer": {
+		"name": "Core Entwickler",
+		"description": "Entwickler, die zu den Hauptverantwortlichen für die Codebasis des Bots gehören"
+	}
+}

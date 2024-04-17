@@ -1,0 +1,18 @@
+{
+	"alpha_tester": {
+		"name": "Alpha Tester",
+		"description": "Users who tested the bot in the Closed Alpha program"
+	},
+	"translator": {
+		"name": "Translator",
+		"description": "Users who have translated the bot into other languages via {{- translationLink}}"
+	},
+	"donator": {
+		"name": "Donator",
+		"description": "Users who have donated to the bot via {{- donationLink}}"
+	},
+	"core_developer": {
+		"name": "Core Developer",
+		"description": "Developers who are part of the core maintainers for the bot's codebase"
+	}
+}

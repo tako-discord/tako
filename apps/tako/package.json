@@ -1,0 +1,53 @@
+{
+	"name": "tako",
+	"version": "2.0.0-alpha.7",
+	"private": true,
+	"type": "module",
+	"scripts": {
+		"commit": "cz",
+		"lint": "tsc && prettier --check . && eslint ./src --ext .ts --format=pretty",
+		"deploy": "bun src/util/deploy.ts",
+		"format": "prettier --write . && eslint ./src --ext .ts --fix --format=pretty",
+		"start": "NODE_ENV=production bun src/index.ts",
+		"dev": "NODE_ENV=development bunx nodemon --exec bun src/index.ts",
+		"generate": "bunx prisma generate",
+		"db:push": "dotenv -e .env.production -- npx prisma db push",
+		"db:migrate": "dotenv -e .env.development -- npx prisma migrate dev"
+	},
+	"dependencies": {
+		"@discordjs/core": "^1.1.1",
+		"@faker-js/faker": "^8.4.1",
+		"@linear/sdk": "^19.1.1",
+		"@prisma/client": "^5.10.2",
+		"discord.js": "^14.14.1",
+		"emoji-regex": "^10.3.0",
+		"i18next": "^23.10.0",
+		"i18next-fs-backend": "^2.3.1",
+		"is-language-code": "^5.0.12",
+		"prisma": "^5.10.2",
+		"tslog": "^4.9.2",
+		"uwuifier": "^4.0.5",
+		"@repo/typescript-config": "1.0.1-alpha.0"
+	},
+	"devDependencies": {
+		"@sapphire/ts-config": "^5.0.0",
+		"@stylistic/eslint-plugin": "^1.7.0",
+		"@types/node": "^20.11.25",
+		"bun-types": "^1.0.30",
+		"commitizen": "^4.3.0",
+		"cz-conventional-changelog": "^3.3.0",
+		"eslint": "^8.57.0",
+		"eslint-config-neon": "^0.1.59",
+		"eslint-formatter-pretty": "^5.0.0",
+		"typescript": "^5.4.2",
+		"prettier": "^3.2.5"
+	},
+	"nodemon": {
+		"ext": "js,mjs,cjs,json,ts"
+	},
+	"config": {
+		"commitizen": {
+			"path": "./node_modules/cz-conventional-changelog"
+		}
+	}
+}

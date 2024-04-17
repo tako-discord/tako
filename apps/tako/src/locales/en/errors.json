@@ -1,0 +1,31 @@
+{
+	"checks": {
+		"devOnly": {
+			"title": "Secret Stuff",
+			"description": "You need to be a Developer of the bot in order to run this command."
+		}
+	},
+	"language": {
+		"invalidLanguage": {
+			"title": "Invalid Language",
+			"description": "That is not a valid language. Please follow the format of `xx` (`en`, `de`, etc.) or `xx-XX` (`en-US`, `zh-CN`, etc.), while `x` represents a part of your language code."
+		}
+	},
+	"serverRequired": {
+		"title": "Server Required",
+		"description": "You need to run this command in a server."
+	},
+	"noPermission": {
+		"title": "No Permission",
+		"description_one": "You do not have permission to run this command. You need the following permission: `{{permission}}`.",
+		"description_other": "You do not have permission to run this command. You need the following permissions: `{{permission}}`.",
+		"permissions": {
+			"manageGuild": "Manage Server"
+		}
+	},
+	"autoReact": {
+		"maxEmojis": "You can only have a maximum of 20 emojis in your auto-react list.",
+		"noTextChannel": "You need to run this command in a valid channel. Use the `channel` option to get a valid list of channels!",
+		"noEmojis": "There are no emojis in the auto-react list of <#{{channel}}>."
+	}
+}

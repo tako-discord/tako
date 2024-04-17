@@ -1,0 +1,64 @@
+---
+title: uwuify
+description: A reference page for the "/uwuify" command inside the Tako Discord bot.
+---
+
+import { Tabs, TabItem } from '@astrojs/starlight/components';
+import Badge from '@astrojs/starlight/components/Badge.astro';
+
+With `/uwuify`, you can easily "uwuify" your messages. This can include stutters, actions, faces and some other specialties, like replacing the R with the L.
+
+## Usage
+
+<Tabs>
+	<TabItem label="Slash Commands">
+		`/uwuify <message> [stutters] [faces] [actions] [exclamations]`
+	</TabItem>
+</Tabs>
+
+## Options
+
+All options excluding the `message` option, is a percentage-based number that can range from `0-100`.
+
+<Tabs>
+    <TabItem label="Message">
+        This is the text, that will be uwuified.
+    </TabItem>
+    <TabItem label="Stutters">
+        <Badge text="Default: 10%" />
+        Chance of stutters.
+
+        **Example (10%)**:
+        This i\~i\~is a text with a f\~f\~few stuttews.
+
+        **Example (100%)**:
+        T\~t\~this i\~i\~i\~is a\~a\~a t\~t\~t\~text w\~w\~w\~with j\~j\~j\~just s\~s\~s\~stuttews.
+    </TabItem>
+
+    <TabItem label="Faces">
+        <Badge text="Default: 0%" />
+        Chance of faces.
+
+        **Example (100%)**:
+        This (◡ ꒳ ◡) is ( ᵘ ꒳ ᵘ ✼) a (◡ ꒳ ◡) text ღ(U꒳Uღ) with ( ᵘ ꒳ ᵘ ✼) faces ^w^ in ˚(ꈍ ω ꈍ).₊̣̇. between ( ͡U ω ͡U ) evewy :･ﾟ✧(ꈍᴗꈍ)✧･ﾟ: wowd (◡ w ◡).
+    </TabItem>
+
+    <TabItem label="Actions">
+        <Badge text="Default: 5%" />
+        Chance of actions.
+
+        **Example (10%)**:
+        This ***nuzzles your necky wecky*** is a text with defauwt actions.
+
+        **Example (100%)**:
+        This ***smirks smuggly*** is ***huggles tightly*** a ***walks away*** text ***nuzzles your necky wecky*** with ***sweats*** a ***cries*** wot ***sweats*** of ***sees bulge*** actions. ***whispers to self***
+    </TabItem>
+
+    <TabItem label="Exclamations">
+        <Badge text="Default: 25%" />
+        Chance of replacing an exclamation.
+
+        **Example (100%)**:
+        This is a text with speciaw excwamations!!1! Isn't this coow?!?!
+    </TabItem>
+</Tabs>

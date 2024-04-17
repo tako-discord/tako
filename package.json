@@ -4,14 +4,16 @@
   "scripts": {
     "build": "turbo build",
     "dev": "turbo dev",
+    "start": "turbo start",
     "lint": "turbo lint",
-    "format": "prettier --write \"**/*.{ts,tsx,md}\""
+    "format": "turbo format",
+    "db:generate": "turbo run generate"
   },
   "devDependencies": {
-    "@repo/eslint-config": "*",
     "@repo/typescript-config": "*",
     "prettier": "^3.2.5",
-    "turbo": "latest"
+    "turbo": "latest",
+    "@changesets/cli": "^2.27.1"
   },
   "engines": {
     "node": ">=18"
