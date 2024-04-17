@@ -1,5 +1,11 @@
 # tako-docs
 
+## 0.0.3-alpha.1
+
+### Patch Changes
+
+- Remove Netlify Badge
+
 ## 1.0.0-alpha.0
 
 ### Patch Changes
