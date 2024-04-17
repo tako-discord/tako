@@ -10,7 +10,7 @@
     "db:generate": "turbo run generate"
   },
   "devDependencies": {
-    "@repo/typescript-config": "*",
+    "@repo/typescript-config": "1.0.1-alpha.0",
     "prettier": "^3.2.5",
     "turbo": "latest",
     "@changesets/cli": "^2.27.1"

@@ -26,8 +26,7 @@
 		"is-language-code": "^5.0.12",
 		"prisma": "^5.10.2",
 		"tslog": "^4.9.2",
-		"uwuifier": "^4.0.5",
-		"@repo/typescript-config": "1.0.1-alpha.0"
+		"uwuifier": "^4.0.5"
 	},
 	"devDependencies": {
 		"@sapphire/ts-config": "^5.0.0",
