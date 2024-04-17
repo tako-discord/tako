@@ -10,7 +10,7 @@
     "db:generate": "turbo run generate",
     "changeset": "changeset",
     "bump": "changeset version",
-    "release": "changeset publish"
+    "release": "changeset publish && git push --tags"
   },
   "devDependencies": {
     "@repo/typescript-config": "1.0.1-alpha.0",
