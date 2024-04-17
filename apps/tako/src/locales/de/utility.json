@@ -149,11 +149,11 @@
 			"response": {
 				"title": "Autorollen für {{- guild}}",
 				"description": "Die folgenden Rollen werden neuen Mitgliedern automatisch zugewiesen.",
+				"none": "Keine",
 				"user_one": "Benutzer-Rolle",
 				"user_other": "Benutzer-Rollen",
 				"bot_one": "Bot-Rolle",
-				"bot_other": "Bot-Rollen",
-				"none": "Keine"
+				"bot_other": "Bot-Rollen"
 			}
 		},
 		"options": {
@@ -171,6 +171,14 @@
 		"types": {
 			"user": "Nutzer",
 			"bot": "Bot"
+		}
+	},
+	"emoji": {
+		"name": "emoji",
+		"description": "Hilfsfunktionen für Emojis",
+		"list": {
+			"name": "liste",
+			"description": "Alle benutzerdefinierten Emojis des Servers auflisten"
 		}
 	}
 }

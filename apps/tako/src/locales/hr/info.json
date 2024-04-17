@@ -1,8 +1,8 @@
 {
 	"ping": {
-		"name": "ping",
+		"name": "",
 		"description": "Pingaj bota",
-		"title": "Pong!",
+		"title": "",
 		"response": "{latency, number}ms."
 	},
 	"info": {
@@ -24,20 +24,20 @@
 			"embedDescription": "Evo nekih informacija o <@{{user}}>",
 			"general": "Općenito",
 			"username": "**Korisničko ime**: {{username}}",
-			"id": "**ID**: {{id}}",
+			"id": "",
 			"flags": "**Oznake**: {{- flags}}",
 			"noFlags": "*Bez oznaka*",
 			"flag": {
 				"Staff": "Discord osoblje",
 				"Partner": "Vlasnik partnerskog servera",
 				"HypeSquad": "HypeSquad događanja",
-				"BugHunterLevel1": "Discord Bug Hunter",
+				"BugHunterLevel1": "",
 				"HypeSquadOnlineHouse1": "HypeSquad kuća hrabrosti",
 				"HypeSquadOnlineHouse2": "HypeSquad kuća brilijantnosti",
 				"HypeSquadOnlineHouse3": "HypeSquad kuća ravnoteže",
 				"PremiumEarlySupporter": "Rani podržavatelj",
 				"TeamUser": "Tim",
-				"BugHunterLevel2": "Discord Bug Hunter",
+				"BugHunterLevel2": "",
 				"VerifiedBot": "Verificirani bot",
 				"VerifiedDeveloper": "Rani verificirani programer botova",
 				"CertifiedModerator": "Alumni programa moderatora",
@@ -46,16 +46,16 @@
 				"ActiveDeveloper": "Aktivni developer"
 			},
 			"created": "**Stvoreno**: {{- date }} ({{- relative}})",
-			"avatar": "**Avatar**: ",
+			"avatar": "",
 			"banner": "",
-			"server": "Server",
+			"server": "",
 			"joined": "**Pridružio se**: {{- date}} ({{- relative}})",
 			"unknown": "Nepoznato",
 			"roles": "**Uloge**: {{- roles}}",
 			"noRoles": "*Bez uloga*",
 			"topRole": "**Najviša uloga**: <@&{{role}}>",
 			"hoistRole": "**Vidljiva uloga**: <@&{{role}}>",
-			"serverAvatar": "**Server Avatar**: ",
+			"serverAvatar": "",
 			"serverBanner": "",
 			"badges": ""
 		},
@@ -72,10 +72,37 @@
 				"title": "",
 				"description": ""
 			}
+		},
+		"role": {
+			"name": "",
+			"description": "",
+			"options": {
+				"role": {
+					"name": "",
+					"description": ""
+				}
+			},
+			"general": "",
+			"properties": "",
+			"fields": {
+				"name": "",
+				"id": "",
+				"color": "",
+				"hoisted": "",
+				"mentionable": "",
+				"position": "",
+				"created": "",
+				"members": "",
+				"moreMembers": "",
+				"noMembers": "",
+				"managed": "",
+				"roleIcon": ""
+			},
+			"title": ""
 		}
 	},
 	"urban": {
-		"name": "urban-dictionary",
+		"name": "",
 		"description": "Pretraži Urban Dictionary",
 		"options": {
 			"term": {
@@ -87,7 +114,7 @@
 				"description": "Treba li koristiti strogi način rada ili ne"
 			},
 			"matchCase": {
-				"name": "match-case",
+				"name": "",
 				"description": "Trebaju li rezultati odgovarati malim i malim slovima izraza"
 			},
 			"ephemeral": {
@@ -98,7 +125,7 @@
 		"error": "",
 		"error_404": "Nema pronađenih rezultata za `{{term}}`",
 		"example": "Primjer",
-		"footer": "unofficialurbandictionaryapi.com • {{- date, datetime}}"
+		"footer": ""
 	},
 	"help": {
 		"name": "",

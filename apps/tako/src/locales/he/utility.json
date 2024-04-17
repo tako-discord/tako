@@ -149,11 +149,15 @@
 			"response": {
 				"title": "",
 				"description": "",
+				"none": "",
 				"user_one": "",
+				"user_two": "",
+				"user_many": "",
 				"user_other": "",
 				"bot_one": "",
-				"bot_other": "",
-				"none": ""
+				"bot_two": "",
+				"bot_many": "",
+				"bot_other": ""
 			}
 		},
 		"options": {
@@ -171,6 +175,14 @@
 		"types": {
 			"user": "",
 			"bot": ""
+		}
+	},
+	"emoji": {
+		"name": "",
+		"description": "",
+		"list": {
+			"name": "",
+			"description": ""
 		}
 	}
 }

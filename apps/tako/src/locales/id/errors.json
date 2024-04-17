@@ -17,11 +17,10 @@
 	},
 	"noPermission": {
 		"title": "",
-		"description_one": "",
-		"description_other": "",
 		"permissions": {
 			"manageGuild": ""
-		}
+		},
+		"description_other": ""
 	},
 	"autoReact": {
 		"maxEmojis": "",
