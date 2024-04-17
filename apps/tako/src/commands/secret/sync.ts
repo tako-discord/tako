@@ -21,6 +21,7 @@ export default {
 			slashCommandTranslator('sync.description', 'secret'),
 		)
 		.setDefaultMemberPermissions(PermissionFlagsBits.Administrator)
+		.setDMPermission(false)
 		.toJSON(),
 	async execute(interaction) {
 		await interaction.deferReply({ ephemeral: true });

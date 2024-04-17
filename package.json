@@ -7,7 +7,10 @@
     "start": "turbo start",
     "lint": "turbo lint",
     "format": "turbo format",
-    "db:generate": "turbo run generate"
+    "db:generate": "turbo run generate",
+    "changeset": "changeset",
+    "bump": "changeset version",
+    "release": "changeset publish"
   },
   "devDependencies": {
     "@repo/typescript-config": "1.0.1-alpha.0",

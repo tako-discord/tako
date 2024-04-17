@@ -1,3 +1,11 @@
+# tako
+
+## 2.0.0-alpha.9
+
+### Patch Changes
+
+- Remove `/sync` (bot owner command) from user-installable commands.
+
 ## 2.0.0-alpha.8
 
 ### Patch Changes
