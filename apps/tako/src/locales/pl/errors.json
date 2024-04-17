@@ -17,11 +17,13 @@
 	},
 	"noPermission": {
 		"title": "",
-		"description_one": "",
-		"description_other": "",
 		"permissions": {
 			"manageGuild": ""
-		}
+		},
+		"description_one": "",
+		"description_few": "",
+		"description_many": "",
+		"description_other": ""
 	},
 	"autoReact": {
 		"maxEmojis": "",

@@ -72,6 +72,33 @@
 				"title": "Abzeichen nicht gefunden",
 				"description": "Das Abzeichen `{{badge}}` konnte nicht gefunden werden"
 			}
+		},
+		"role": {
+			"name": "rolle",
+			"description": "Erhalte Infos über eine Rolle",
+			"options": {
+				"role": {
+					"name": "rolle",
+					"description": "Die Rolle, über die du Informationen erhalten möchtest"
+				}
+			},
+			"general": "Allgemein",
+			"properties": "Eigenschaften",
+			"fields": {
+				"name": "**Name**: {{name}}",
+				"id": "**ID**: `{{id}}`",
+				"color": "**Farbe**: {{- color}}",
+				"hoisted": "**Hoisted**: {{hoisted}}",
+				"mentionable": "**Erwähnbar** (von allen): {{- mentionable}}",
+				"position": "**Position**: {{position}}",
+				"created": "**Erstellt am**: {{- date }} ({{- relative}})",
+				"members": "**Mitglieder**: {{- members}}",
+				"moreMembers": " & {{amount, number}} mehr",
+				"noMembers": "*Keine Mitglieder*",
+				"managed": "**Verwaltet durch eine Integration**: {{managed}}",
+				"roleIcon": "**Rollen-Icon**: {{- icon}}"
+			},
+			"title": "Infos für {{- role}}"
 		}
 	},
 	"urban": {

@@ -8,7 +8,7 @@
 		"description": "Brugere, der har oversat botten til andre sprog via {{- translationLink}}"
 	},
 	"donator": {
-		"name": "Donator",
+		"name": "",
 		"description": "Brugere, der har doneret til botten via {{- donationLink}}"
 	},
 	"core_developer": {

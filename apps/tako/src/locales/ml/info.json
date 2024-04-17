@@ -3,7 +3,7 @@
 		"name": "പിംഗ്",
 		"description": "ബോട്ട് പിംഗ് ചെയ്യുക",
 		"title": "പോങ്ങ്!",
-		"response": "{{latency, number}}ms."
+		"response": ""
 	},
 	"info": {
 		"name": "വിവരം",
@@ -72,6 +72,33 @@
 				"title": "",
 				"description": ""
 			}
+		},
+		"role": {
+			"name": "",
+			"description": "",
+			"options": {
+				"role": {
+					"name": "",
+					"description": ""
+				}
+			},
+			"general": "",
+			"properties": "",
+			"fields": {
+				"name": "",
+				"id": "",
+				"color": "",
+				"hoisted": "",
+				"mentionable": "",
+				"position": "",
+				"created": "",
+				"members": "",
+				"moreMembers": "",
+				"noMembers": "",
+				"managed": "",
+				"roleIcon": ""
+			},
+			"title": ""
 		}
 	},
 	"urban": {
