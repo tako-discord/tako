@@ -1,3 +1,9 @@
+## 2.0.0-alpha.8
+
+### Patch Changes
+
+- 06eb065: Removed `@repo/typescript-config` dependency, as it is a duplicate dependency.
+
 ## 2.0.0-alpha.7
 
 ### Patch Changes
