@@ -1,12 +1,12 @@
 {
 	"ping": {
-		"name": "ping",
+		"name": "",
 		"description": "Ping botten",
-		"title": "Pong!",
-		"response": "{{latency, number}}ms."
+		"title": "",
+		"response": ""
 	},
 	"info": {
-		"name": "info",
+		"name": "",
 		"description": "Få information om hvad som helst",
 		"user": {
 			"name": "bruger",
@@ -24,39 +24,39 @@
 			"embedDescription": "Her er der noget information om <@{{user}}>",
 			"general": "Generel",
 			"username": "**Brugernavn**: {{username}}",
-			"id": "**ID**: {{id}}",
+			"id": "",
 			"flags": "**Flag**: {{- flags}}",
 			"noFlags": "",
 			"flag": {
 				"Staff": "Discord-medarbejdere",
 				"Partner": "Partnered Server Ejer",
 				"HypeSquad": "HypeSquad Begivenheder",
-				"BugHunterLevel1": "Discord Bug Hunter",
+				"BugHunterLevel1": "",
 				"HypeSquadOnlineHouse1": "HypeSquad Tapperhed",
-				"HypeSquadOnlineHouse2": "HypeSquad Brilliance",
+				"HypeSquadOnlineHouse2": "",
 				"HypeSquadOnlineHouse3": "Hypesquad Balance",
 				"PremiumEarlySupporter": "Tidlig Supporter",
-				"TeamUser": "Team",
-				"BugHunterLevel2": "Discord Bug Hunter",
+				"TeamUser": "",
+				"BugHunterLevel2": "",
 				"VerifiedBot": "Verificeret Bot",
 				"VerifiedDeveloper": "Tidlig Verificeret bot udvikler",
 				"CertifiedModerator": "Moderatorprogrammer Alumni",
 				"BotHTTPInteractions": "Bot bruger kun HTTP-interaktioner",
-				"Spammer": "Spammer",
+				"Spammer": "",
 				"ActiveDeveloper": "Aktiv udvikler"
 			},
 			"created": "**Oprettet den**: {{- date }} ({{- relative}})",
 			"avatar": "**Profil Billede**: ",
-			"banner": "**Banner**: ",
-			"server": "Server",
+			"banner": "",
+			"server": "",
 			"joined": "**Tilsluttede sig**: {{- date}} ({{- relative}})",
 			"unknown": "Ukendt",
 			"roles": "**Roller**: {{- roles}}",
 			"noRoles": "*Ingen roller*",
 			"topRole": "**Øverste Rolle**: {{role}}>",
 			"hoistRole": "**Hoist Rolle**: {{role}}>",
-			"serverAvatar": "**Server Avatar**: ",
-			"serverBanner": "**Server Banner**: ",
+			"serverAvatar": "",
+			"serverBanner": "",
 			"badges": "{{client}} Emblemer"
 		},
 		"badge": {
@@ -72,6 +72,33 @@
 				"title": "Emblem ikke fundet",
 				"description": "Emblemet `{{badge}}` blev ikke fundet"
 			}
+		},
+		"role": {
+			"name": "",
+			"description": "",
+			"options": {
+				"role": {
+					"name": "",
+					"description": ""
+				}
+			},
+			"general": "",
+			"properties": "",
+			"fields": {
+				"name": "",
+				"id": "",
+				"color": "",
+				"hoisted": "",
+				"mentionable": "",
+				"position": "",
+				"created": "",
+				"members": "",
+				"moreMembers": "",
+				"noMembers": "",
+				"managed": "",
+				"roleIcon": ""
+			},
+			"title": ""
 		}
 	},
 	"urban": {
@@ -87,7 +114,7 @@
 				"description": "Om streng tilstand skal bruges eller ej"
 			},
 			"matchCase": {
-				"name": "match-case",
+				"name": "",
 				"description": "Om resultatet skal matche med dit term"
 			},
 			"ephemeral": {
@@ -98,7 +125,7 @@
 		"error": "En fejl opstod imens vi søgte i ordbogen efter `{{term}}`",
 		"error_404": "Ingen resultater fundet for `{{term}}`",
 		"example": "Eksempel",
-		"footer": "unofficialurbandictionaryapi.com • {{- date, datetime}}"
+		"footer": ""
 	},
 	"help": {
 		"name": "hjælp",

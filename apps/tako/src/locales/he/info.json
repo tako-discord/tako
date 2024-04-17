@@ -72,6 +72,33 @@
 				"title": "",
 				"description": ""
 			}
+		},
+		"role": {
+			"name": "",
+			"description": "",
+			"options": {
+				"role": {
+					"name": "",
+					"description": ""
+				}
+			},
+			"general": "",
+			"properties": "",
+			"fields": {
+				"name": "",
+				"id": "",
+				"color": "",
+				"hoisted": "",
+				"mentionable": "",
+				"position": "",
+				"created": "",
+				"members": "",
+				"moreMembers": "",
+				"noMembers": "",
+				"managed": "",
+				"roleIcon": ""
+			},
+			"title": ""
 		}
 	},
 	"urban": {

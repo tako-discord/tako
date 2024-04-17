@@ -17,11 +17,11 @@
 	},
 	"noPermission": {
 		"title": "Ingen tilladelser",
-		"description_one": "Du har ikke tilladelse til at køre denne kommando. Du skal have følgende tilladelse: `{{permission}}`.",
-		"description_other": "",
 		"permissions": {
 			"manageGuild": "Administrer Server"
-		}
+		},
+		"description_one": "",
+		"description_other": ""
 	},
 	"autoReact": {
 		"maxEmojis": "Du kan kun have et maksimum på 20 emojis i din auto-reaktion liste.",

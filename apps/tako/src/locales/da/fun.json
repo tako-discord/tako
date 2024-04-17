@@ -1,7 +1,7 @@
 {
 	"uwuify": {
-		"name": "uwuify",
-		"description": "uwuify t~text uwu",
+		"name": "",
+		"description": "",
 		"options": {
 			"message": {
 				"name": "besked",
@@ -26,7 +26,7 @@
 		}
 	},
 	"ip": {
-		"name": "ip",
+		"name": "",
 		"description": "Få en brugers IP",
 		"options": {
 			"user": {
