@@ -180,5 +180,27 @@
 			"name": "liste",
 			"description": "Alle benutzerdefinierten Emojis des Servers auflisten"
 		}
+	},
+	"translate": {
+		"name": "übersetzen",
+		"description": "Übersetze einen beliebigen Text in eine andere Sprache",
+		"options": {
+			"text": {
+				"name": "text",
+				"description": "Der zu übersetzende Text"
+			},
+			"language": {
+				"name": "sprache",
+				"description": "Die Sprache, in die der Text übersetzt werden soll"
+			},
+			"source": {
+				"name": "quelle",
+				"description": "Die Sprache des Textes"
+			},
+			"ephemeral": {
+				"name": "vergänglich",
+				"description": "Ob die Übersetzung nur für dich sichtbar sein soll oder nicht"
+			}
+		}
 	}
 }
