@@ -178,5 +178,27 @@
 			"name": "",
 			"description": ""
 		}
+	},
+	"translate": {
+		"name": "",
+		"description": "",
+		"options": {
+			"text": {
+				"name": "",
+				"description": ""
+			},
+			"language": {
+				"name": "",
+				"description": ""
+			},
+			"source": {
+				"name": "",
+				"description": ""
+			},
+			"ephemeral": {
+				"name": "",
+				"description": ""
+			}
+		}
 	}
 }
