@@ -13,7 +13,7 @@
     "release": "changeset publish && git push --tags"
   },
   "devDependencies": {
-    "@repo/typescript-config": "1.0.1-alpha.0",
+    "@repo/typescript-config": "workspace:*",
     "prettier": "^3.2.5",
     "turbo": "latest",
     "@changesets/cli": "^2.27.1"
