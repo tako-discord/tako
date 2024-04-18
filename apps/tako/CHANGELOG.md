@@ -1,5 +1,11 @@
 # tako
 
+## 2.0.0-alpha.12
+
+### Patch Changes
+
+- Add server and user statistic to the app's status.
+
 ## 2.0.0-alpha.11
 
 ### Patch Changes

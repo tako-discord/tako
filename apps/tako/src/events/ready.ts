@@ -20,6 +20,14 @@ export default {
 					activity: 'Need help? Run /help',
 					type: ActivityType.Custom,
 				},
+				{
+					activity: `Serving ${client.guilds.cache.size} server${client.guilds.cache.size > 1 ? 's' : ''}`,
+					type: ActivityType.Custom,
+				},
+				{
+					activity: `Serving ${client.users.cache.size} user${client.users.cache.size > 1 ? 's' : ''}`,
+					type: ActivityType.Custom,
+				},
 			];
 
 			const randomIndex = Math.floor(Math.random() * activities.length);
