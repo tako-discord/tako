@@ -1,6 +1,7 @@
 import type { ChatInputCommandInteraction } from 'discord.js';
 import { SlashCommandBuilder } from 'discord.js';
 import { isLangCode } from 'is-language-code';
+import config from '../../../config.ts';
 import { languages } from '../../@types/utility.ts';
 import i18next from '../../i18n.ts';
 import {
@@ -11,8 +12,6 @@ import {
 	translate,
 } from '../../util/general.ts';
 import type { Command } from '../index.ts';
-import config from '../../../config.ts';
-import { title } from 'process';
 
 export default {
 	data: new SlashCommandBuilder()
