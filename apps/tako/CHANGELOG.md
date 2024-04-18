@@ -1,5 +1,11 @@
 # tako
 
+## 2.0.0-alpha.11
+
+### Patch Changes
+
+- b171265: Fix linting errors and remove unused imports in the `/translate` command file.
+
 ## 2.0.0-alpha.10
 
 ### Patch Changes
