@@ -1,19 +1,19 @@
 {
 	"changeLanguage": {
 		"name": "set-language",
-		"description": "Change the language of the bot",
+		"description": "Change the language of the app",
 		"personal": {
 			"name": "personal",
-			"description": "Change the language of the bot for yourself and personal messages"
+			"description": "Change the language of the app for yourself and personal messages"
 		},
 		"server": {
 			"name": "server",
-			"description": "Change the language of the bot for the whole server"
+			"description": "Change the language of the app for the whole server"
 		},
 		"options": {
 			"language": {
 				"name": "language",
-				"description": "The language you want to use for the bot"
+				"description": "The language you want to use for the app"
 			}
 		},
 		"response": "Successfully changed the language to `{{language}}`"
@@ -140,7 +140,7 @@
 			"description": "Toggle a role that will be automatically assigned to new users"
 		},
 		"bot": {
-			"name": "bot",
+			"name": "app",
 			"description": "Toggle a role that will be automatically assigned to new bots"
 		},
 		"list": {
@@ -151,8 +151,8 @@
 				"description": "The following roles are being automatically assigned to new members.",
 				"user_one": "User Role",
 				"user_other": "User Roles",
-				"bot_one": "Bot Role",
-				"bot_other": "Bot Roles",
+				"bot_one": "App Role",
+				"bot_other": "App Roles",
 				"none": "None"
 			}
 		},
@@ -170,7 +170,7 @@
 		},
 		"types": {
 			"user": "user",
-			"bot": "bot"
+			"bot": "app"
 		}
 	},
 	"emoji": {
@@ -179,6 +179,28 @@
 		"list": {
 			"name": "list",
 			"description": "List all custom emojis of the server"
+		}
+	},
+	"translate": {
+		"name": "translate",
+		"description": "Translate any given text to a different language",
+		"options": {
+			"text": {
+				"name": "text",
+				"description": "The text to translate"
+			},
+			"language": {
+				"name": "language",
+				"description": "The language to translate the text to"
+			},
+			"source": {
+				"name": "source",
+				"description": "The language of the text"
+			},
+			"ephemeral": {
+				"name": "ephemeral",
+				"description": "Whether or not to send the translation as an ephemeral message"
+			}
 		}
 	}
 }

@@ -2,7 +2,7 @@
 	"checks": {
 		"devOnly": {
 			"title": "Secret Stuff",
-			"description": "You need to be a Developer of the bot in order to run this command."
+			"description": "You need to be a Developer of the app in order to run this command."
 		}
 	},
 	"language": {

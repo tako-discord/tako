@@ -60,11 +60,24 @@ registerEvents(client, commands, events);
 
 // Error Handling
 process.on('unhandledRejection', (reason, promise) => {
-	logger.error(reason);
+	if (reason === undefined) {
+		// If reason is undefined, log a specific message
+		logger.error('Unhandled promise rejection with no reason provided');
+		return;
+	}
+
+	if (reason instanceof Error) {
+		// If reason is an instance of Error, log the error message and stack trace
+		logger.error(`${reason.message} Stack Trace: ${reason.stack}`);
+		return;
+	}
+
+	// If reason is not undefined but not an instance of Error, log the reason directly
+	logger.error(`Reason: ${reason}`);
 });
 
 process.on('uncaughtException', (error) => {
-	logger.error(error);
+	logger.error(`${error.message} ${error.stack}`);
 });
 
 void client.login(Bun.env.DISCORD_TOKEN);

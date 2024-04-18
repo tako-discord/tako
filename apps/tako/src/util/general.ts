@@ -1,4 +1,5 @@
 import { setTimeout } from 'node:timers';
+import { FastText } from '@rafaelkallis/fasttext';
 import type { Client } from 'discord.js';
 import { EmbedBuilder, Locale } from 'discord.js';
 import config from '../../config.ts';
@@ -182,4 +183,14 @@ export async function translate(
 	}
 
 	return translation;
+}
+
+const fastText = await FastText.from(
+	Bun.pathToFileURL('lid.176.bin').toString().split('file://').pop() ?? '',
+);
+
+export async function detect(text: string) {
+	const predictions = await fastText.predict(text);
+	const [[label, prob]] = predictions;
+	return { label, prob };
 }

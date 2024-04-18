@@ -38,10 +38,10 @@
 				"PremiumEarlySupporter": "Tidlig Supporter",
 				"TeamUser": "",
 				"BugHunterLevel2": "",
-				"VerifiedBot": "Verificeret Bot",
-				"VerifiedDeveloper": "Tidlig Verificeret bot udvikler",
+				"VerifiedBot": "Verificeret App",
+				"VerifiedDeveloper": "Tidlig Verificeret app udvikler",
 				"CertifiedModerator": "Moderatorprogrammer Alumni",
-				"BotHTTPInteractions": "Bot bruger kun HTTP-interaktioner",
+				"BotHTTPInteractions": "App bruger kun HTTP-interaktioner",
 				"Spammer": "",
 				"ActiveDeveloper": "Aktiv udvikler"
 			},

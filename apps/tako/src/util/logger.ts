@@ -2,7 +2,7 @@ import type { ILogObj, ILogObjMeta } from 'tslog';
 import { Logger } from 'tslog';
 import config from '../../config.ts';
 
-const file = Bun.file('./bot.log');
+const file = Bun.file('./app.log');
 await Bun.write(file, '');
 const writer = file.writer();
 

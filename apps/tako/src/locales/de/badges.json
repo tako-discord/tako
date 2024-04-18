@@ -1,15 +1,15 @@
 {
 	"alpha_tester": {
 		"name": "Alpha Tester",
-		"description": "Benutzer, die den Bot im geschlossenen Alpha-Programm getestet haben"
+		"description": "Benutzer, die im geschlossenen Alpha-Programm der App teilgenommen haben"
 	},
 	"translator": {
 		"name": "Übersetzer",
-		"description": "Benutzer, die den Bot über {{- translationLink}} in andere Sprachen übersetzt haben"
+		"description": "Benutzer, die über {{- translationLink}} die App in andere Sprachen übersetzt haben"
 	},
 	"donator": {
 		"name": "Spender",
-		"description": "Nutzer, die dem Bot über {{- donationLink}} finanziell unterstützt haben"
+		"description": "Nutzer, die die App über {{- donationLink}} finanziell unterstützt haben"
 	},
 	"core_developer": {
 		"name": "Core Entwickler",

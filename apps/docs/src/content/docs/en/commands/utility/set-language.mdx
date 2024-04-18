@@ -1,6 +1,6 @@
 ---
 title: Setting the Language
-description: A reference page for the "/set-language" command inside the Tako Discord bot.
+description: A reference page for the "/set-language" command inside the Tako Discord app.
 ---
 
 import { Tabs, TabItem } from '@astrojs/starlight/components';
@@ -8,6 +8,7 @@ import { Tabs, TabItem } from '@astrojs/starlight/components';
 With `/set-language`, you can customize the language used in Tako's responses and automatic translation.
 
 ## Usage
+
 <Tabs>
 	<TabItem label="Server">
         `/set-language server <language>`
@@ -23,30 +24,25 @@ You need the `Manage Server` permission to change the language of the server.
 :::tip
 You will get suggestions for a long list of languages when you are focused on the `language` option. This will allow for searching for languages by their name.
 If your language isn't being suggested you can also use an [ISO 639-1](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) two letter language code.
-::: 
+:::
 
 ## What will change?
-**Server**
-    - The language used in Tako's public/non-ephemeral responses will change.
-    - The language used for automatic translation
 
-**Personal**
-    - The language used in Tako's direct message & ephemeral responses will change.
+**Server** - The language used in Tako's public/non-ephemeral responses will change. - The language used for automatic translation
+
+**Personal** - The language used in Tako's direct message & ephemeral responses will change.
 
 ## Examples
+
 <Tabs>
 	<TabItem label="Server">
-		- `/set-language server language:en` will set the language to English.
-        - `/set-language server language:de` will set the language to German.
-        - `/set-language server language:fr` will set the language to French.
-        - `/set-language server language:es` will set the language to Spanish.
-        - ...
+		- `/set-language server language:en` will set the language to English. - `/set-language server language:de` will set
+		the language to German. - `/set-language server language:fr` will set the language to French. - `/set-language
+		server language:es` will set the language to Spanish. - ...
 	</TabItem>
 	<TabItem label="Personal">
-        - `/set-language personal language:en` will set the language to English.
-        - `/set-language personal language:de` will set the language to German.
-        - `/set-language personal language:fr` will set the language to French.
-        - `/set-language personal language:es` will set the language to Spanish.
-        - ...
+		- `/set-language personal language:en` will set the language to English. - `/set-language personal language:de` will
+		set the language to German. - `/set-language personal language:fr` will set the language to French. - `/set-language
+		personal language:es` will set the language to Spanish. - ...
 	</TabItem>
 </Tabs>

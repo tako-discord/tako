@@ -1,7 +1,7 @@
 {
 	"ping": {
 		"name": "ping",
-		"description": "Ping the bot",
+		"description": "Ping the app",
 		"title": "Pong!",
 		"response": "{{latency, number}}ms."
 	},
@@ -38,10 +38,10 @@
 				"PremiumEarlySupporter": "Early Supporter",
 				"TeamUser": "Team",
 				"BugHunterLevel2": "Discord Bug Hunter",
-				"VerifiedBot": "Verified Bot",
-				"VerifiedDeveloper": "Early Verified Bot Developer",
+				"VerifiedBot": "Verified App",
+				"VerifiedDeveloper": "Early Verified App Developer",
 				"CertifiedModerator": "Moderator Programs Alumni",
-				"BotHTTPInteractions": "Bot uses only HTTP interactions",
+				"BotHTTPInteractions": "App uses only HTTP interactions",
 				"Spammer": "Spammer",
 				"ActiveDeveloper": "Active Developer"
 			},
@@ -129,7 +129,7 @@
 	},
 	"help": {
 		"name": "help",
-		"description": "Get help for all things related to the bot",
-		"response": "Instead of a traditional help command, we offer you [our Documentation]({{- docs}}) for more information about the commands and concepts relevant to this bot.\n\nNeed even more help? Join our [Support Server]({{- support}}) for personal support!"
+		"description": "Get help for all things related to the app",
+		"response": "Instead of a traditional help command, we offer you [our Documentation]({{- docs}}) for more information about the commands and concepts relevant to this app.\n\nNeed even more help? Join our [Support Server]({{- support}}) for personal support!"
 	}
 }

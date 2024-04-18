@@ -4,11 +4,11 @@
 		"description": "Skift sproget på botten",
 		"personal": {
 			"name": "personlig",
-			"description": "Skift sprog i bot til dig selv og personlige beskeder"
+			"description": "Skift sprog i app til dig selv og personlige beskeder"
 		},
 		"server": {
 			"name": "",
-			"description": "Skift sprog for bot'en på hele serveren"
+			"description": "Skift sprog for app'en på hele serveren"
 		},
 		"options": {
 			"language": {

@@ -1,12 +1,13 @@
 const config = {
-	// With this enabled, the bot will sync all commands only to the dev guild, to prevent rate limiting
+	// With this enabled, the app will sync all commands only to the dev guild, to prevent rate limiting
 	dev: Bun.env.NODE_ENV === 'development' || false,
 	guilds: {
 		main: '952558753859919922',
 		dev: '884046271176912917',
 	},
-	// These people have access to the secret category (sync etc.)
+	// * These people have access to the secret category (sync etc.)
 	devs: ['751092600890458203'],
+	// Default Colors for embeds etc.
 	colors: {
 		primary: 0x299ba3,
 		accent: 0x5bd79d,
@@ -15,10 +16,12 @@ const config = {
 		red: 0xea4d4d,
 	},
 	// This will be used for creating issues using the feedback command
+	// * Only needed when a Linear Token is set in the .env
 	linear: {
 		team: 'Bot Devs',
 		label: 'Feedback',
 	},
+	// All emojis used in the app. The src/assets folder contains all the emojis used in the app.
 	emojis: {
 		success: '<:success:1228641837095456778>',
 		error: ' <:error:1228641823686131732>',

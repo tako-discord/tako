@@ -1,9 +1,14 @@
 {
-	"i18n-ally.localesPaths": ["src/locales"],
+	"i18n-ally.localesPaths": [
+		"apps/tako/src/locales"
+	],
 	"i18n-ally.keystyle": "nested",
 	"editor.defaultFormatter": "rvest.vs-code-prettier-eslint",
 	"editor.formatOnType": false, // required
 	"editor.formatOnSave": true,
 	"editor.formatOnSaveMode": "file",
-	"vs-code-prettier-eslint.prettierLast": false
+	"vs-code-prettier-eslint.prettierLast": false,
+	"[mdx]": {
+		"editor.defaultFormatter": "unifiedjs.vscode-mdx"
+	}
 }

@@ -13,7 +13,7 @@
 		"options": {
 			"language": {
 				"name": "sprache",
-				"description": "Die Sprache, die du für den Bot verwenden möchtest"
+				"description": "Die Sprache, die du für den App verwenden möchtest"
 			}
 		},
 		"response": "Die Sprache wurde erfolgreich zu `{{language}}` geändert"
@@ -140,7 +140,7 @@
 			"description": "Rolle umschalten, die automatisch neuen Mitgliedern hinzugefügt wird"
 		},
 		"bot": {
-			"name": "bot",
+			"name": "app",
 			"description": "Rolle umschalten, die automatisch neuen Bots hinzugefügt wird"
 		},
 		"list": {
@@ -152,8 +152,8 @@
 				"none": "Keine",
 				"user_one": "Benutzer-Rolle",
 				"user_other": "Benutzer-Rollen",
-				"bot_one": "Bot-Rolle",
-				"bot_other": "Bot-Rollen"
+				"bot_one": "App-Rolle",
+				"bot_other": "App-Rollen"
 			}
 		},
 		"options": {
@@ -170,7 +170,7 @@
 		},
 		"types": {
 			"user": "Nutzer",
-			"bot": "Bot"
+			"bot": "App"
 		}
 	},
 	"emoji": {

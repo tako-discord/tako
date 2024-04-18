@@ -2,4 +2,4 @@
 "tako": patch
 ---
 
-Remove `/sync` (bot owner command) from user-installable commands.
+Remove `/sync` (app owner command) from user-installable commands.

@@ -1,5 +1,12 @@
 # tako-docs
 
+## 0.0.3-alpha.2
+
+### Patch Changes
+
+- Add `/translate` command
+- Rename bot ➜ app
+
 ## 0.0.3-alpha.1
 
 ### Patch Changes

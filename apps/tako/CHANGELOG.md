@@ -1,10 +1,19 @@
 # tako
 
+## 2.0.0-alpha.10
+
+### Patch Changes
+
+- b49b563: Move the `bun-types` dependency to the typescript-config package.
+- Add `/translate` command
+- Add `detect` function to detect the language of a text. This will be used for the upcoming automatic translation feature.
+- Rename bot ➜ app
+
 ## 2.0.0-alpha.9
 
 ### Patch Changes
 
-- Remove `/sync` (bot owner command) from user-installable commands.
+- Remove `/sync` (app owner command) from user-installable commands.
 
 ## 2.0.0-alpha.8
 
@@ -16,7 +25,7 @@
 
 ### Patch Changes
 
-- Added error handling that logs the error in `bot.log` instead of exiting the code.
+- Added error handling that logs the error in `app.log` instead of exiting the code.
 - Move everything to a monorepo. Run `bun install` and `bun start` to get started with the new repo. Also be aware that the codebase has been moved to `apps/tako` and thus your `.env.production` needs to be there as well.
 - Updated dependencies
   - @repo/typescript-config@1.0.1-alpha.0

@@ -1,5 +1,11 @@
 # @repo/typescript-config
 
+## 1.0.1-alpha.1
+
+### Patch Changes
+
+- b49b563: Move the `bun-types` dependency to the typescript-config package.
+
 ## 1.0.1-alpha.0
 
 ### Patch Changes

@@ -1,6 +1,6 @@
 ---
 title: Urban Dictionary
-description: A reference page for the "/urban-dictionary" command inside the Tako Discord bot.
+description: A reference page for the "/urban-dictionary" command inside the Tako Discord app.
 ---
 
 import { Tabs, TabItem } from '@astrojs/starlight/components';
@@ -17,34 +17,36 @@ With `/urban-dictionary`, you can serach for the definition of a word using data
 </Tabs>
 
 ## Options
+
 <Tabs>
     <TabItem label="Term">
         The term to search for.
 
         **Example**:
-		koonce
+    	koonce
     </TabItem>
-	<TabItem label="Strict">
+    <TabItem label="Strict">
         <Badge text="Default: false" />
         Whether to use strict mode or not.
 
         **Example (`true`)**:
-		Returns only "bigger" and not "biggering", "biggered".
+    	Returns only "bigger" and not "biggering", "biggered".
     </TabItem>
-	<TabItem label="Match Case">
+    <TabItem label="Match Case">
         <Badge text="Default: false" />
         Whether the results need to match the casing of the term.
 
         **Example (`true`)**:
-		Just returns results for "hEllO" and not "hello".
+    	Just returns results for "hEllO" and not "hello".
     </TabItem>
-	<TabItem label="Ephemeral">
+    <TabItem label="Ephemeral">
         <Badge text="Default: false" />
         Whether to send the response as an ephemeral message (only visible to you).
 
         **Example (`true`)**:
-		![A screenshot showing the ephemeral response of the command](../../../../../assets/info/urban-ephemeral.png)
+    	![A screenshot showing the ephemeral response of the command](../../../../../assets/info/urban-ephemeral.png)
     </TabItem>
+
 </Tabs>
 
 ## Output

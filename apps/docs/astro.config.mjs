@@ -103,7 +103,7 @@ export default defineConfig({
 			name: 'Tako User Docs',
 			icon: './public/favicon.png',
 			short_name: 'Tako Docs',
-			description: 'Documentation for the Tako Discord bot - Everything you need, neatly packaged in a Tako.',
+			description: 'Documentation for the Tako Discord app - Everything you need, neatly packaged in a Tako.',
 			start_url: '/',
 			theme_color: '#299BA3',
 			background_color: '#14171b',
