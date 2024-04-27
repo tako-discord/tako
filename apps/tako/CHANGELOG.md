@@ -1,5 +1,11 @@
 # tako
 
+## 2.0.0-alpha.13
+
+### Patch Changes
+
+- 184d6a2: Move from tslog to pino + pino-pretty. Logs should provide more info more and be more readable.
+
 ## 2.0.0-alpha.12
 
 ### Patch Changes
