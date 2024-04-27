@@ -1,23 +1,22 @@
-import type { ILogObj, ILogObjMeta } from 'tslog';
-import { Logger } from 'tslog';
-import config from '../../config.ts';
+import pino from 'pino';
+import config from '../../config';
 
+// Flush the log file
 const file = Bun.file('./app.log');
 await Bun.write(file, '');
-const writer = file.writer();
 
-export const logger: Logger<ILogObj> = new Logger({
-	minLevel: config.dev ? 2 : 3,
-	type: 'hidden',
+const transport = pino.transport({
+	targets: [
+		{
+			target: 'pino-pretty',
+			level: config.dev ? 'debug' : 'info',
+			options: {
+				destination: 'app.log',
+				colorize: false,
+				sync: true,
+			},
+		},
+	],
 });
 
-logger.attachTransport(async (logObj: ILogObj & ILogObjMeta) => {
-	writer.ref();
-	writer.write(
-		`${logObj._meta.date.toUTCString()} | ${logObj._meta.logLevelName} | ${JSON.stringify(
-			logObj[0],
-		)}\n`,
-	);
-	await writer.flush();
-	writer.unref();
-});
+export const logger = pino(transport);
