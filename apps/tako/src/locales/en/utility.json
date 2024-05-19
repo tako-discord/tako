@@ -202,5 +202,35 @@
 				"description": "Whether or not to send the translation as an ephemeral message"
 			}
 		}
+	},
+	"crosspost": {
+		"name": "crosspost",
+		"description": "Automatically publish all messages in an announcement channel",
+		"options": {
+			"channel": {
+				"name": "channel",
+				"description": "The channel to publish all messages from"
+			},
+			"state": {
+				"name": "state",
+				"description": "Whether or not to enable crossposting"
+			}
+		},
+		"success": {
+			"enabled": {
+				"title": "Enabled Crossposting",
+				"description": "All new messages from <#{{channel}}> will now be automatically published."
+			},
+			"disabled": {
+				"title": "Disabled Crossposting",
+				"description": "All new messages in <#{{channel}}> will no longer be automatically published."
+			}
+		},
+		"errors": {
+			"invalidChannel": {
+				"title": "Invalid Channel",
+				"description": "The channel you provided is not an announcement channel. Please provide a valid announcement channel!"
+			}
+		}
 	}
 }

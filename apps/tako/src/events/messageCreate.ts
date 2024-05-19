@@ -5,6 +5,19 @@ import type { Event } from './index.ts';
 export default {
 	name: Events.MessageCreate,
 	async execute(message) {
+		// Crosspost
+		if (message.channel.type === ChannelType.GuildAnnouncement) {
+			const data = await prisma.channel.findFirst({
+				where: { id: message.channelId },
+				select: { crosspost: true },
+			});
+
+			if (data?.crosspost) {
+				await message.crosspost();
+			}
+		}
+
+		// Auto-react
 		const isForum =
 			message.channel.isThread() &&
 			(message.channel.parent?.type === ChannelType.GuildForum ||

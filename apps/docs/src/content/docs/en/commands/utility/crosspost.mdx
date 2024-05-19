@@ -1,0 +1,44 @@
+---
+title: Crosspost
+description: |
+  A reference page for the '/crosspost' command inside the Tako Discord app.
+  With '/crosspost', you can setup the app to automatically publish all messages in an announcement channel.
+---
+
+import { Tabs, TabItem } from '@astrojs/starlight/components';
+import Badge from '@astrojs/starlight/components/Badge.astro';
+
+With `/crosspost`, you can setup the app to automatically publish all messages in an announcement channel.
+
+## Usage
+
+<Tabs>
+    <TabItem label="Slash Commands">
+        `/crosspost [channel] [state]`
+
+        **Example**:
+        `/crosspost channel:#news state:true` will enable crossposting for the `#news` channel.
+    </TabItem>
+</Tabs>
+
+## Permissions
+
+In order to use the `/crosspost` subcommands, you need the `Manage Channels` & `Manage Messages` permisions.
+:::tip
+You can change the permisions via `Server Settings > Integrations > Tako` in your Discord server.
+:::
+
+## Options
+
+<Tabs>
+	<TabItem label="Channel">
+        <Badge text="Default: The channel you executed the command from" />
+        The channel to set the state of whether the app should automatically publish all new messages from or not.
+
+        Needs to be an announcement channel!
+    </TabItem>
+    <TabItem label="State">
+        <Badge text="Default: The opposite of the current state, otherwise true" />
+        If set to `true`, the app will automatically publish all new messages from the channel. Otherwise, it will stop automatically publishing messages.
+    </TabItem>
+</Tabs>

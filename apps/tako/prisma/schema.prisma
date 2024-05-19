@@ -31,10 +31,11 @@ model Guild {
 }
 
 model Channel {
-  id            String  @id @unique
-  stickyEmbed   Boolean @default(false)
+  id            String   @id @unique
+  stickyEmbed   Boolean  @default(false)
   stickyMessage String?
   autoReact     String[] @default([])
+  crosspost     Boolean  @default(false)
 }
 
 model Badge {
