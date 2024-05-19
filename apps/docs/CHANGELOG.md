@@ -1,5 +1,11 @@
 # tako-docs
 
+## 0.0.3-alpha.3
+
+### Patch Changes
+
+- cc50fc2: Updated all dependencies that didn't require any additional changes.
+
 ## 0.0.3-alpha.2
 
 ### Patch Changes

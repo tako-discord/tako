@@ -1,5 +1,16 @@
 # tako
 
+## 2.0.0-alpha.14
+
+### Minor Changes
+
+- aa9628f: Added a /crosspost command that automatically publishes messages in an announcement channel.
+
+### Patch Changes
+
+- cc50fc2: Updated all dependencies that didn't require any additional changes.
+- ccdd5d7: Catch errors when loading commands, to prevent broken imports.
+
 ## 2.0.0-alpha.13
 
 ### Patch Changes
