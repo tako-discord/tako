@@ -11,16 +11,16 @@
 		"astro": "astro"
 	},
 	"dependencies": {
-		"@astrojs/starlight": "0.21.5",
+		"@astrojs/starlight": "0.23.1",
 		"@astrojs/starlight-tailwind": "2.0.2",
 		"@astrojs/tailwind": "5.1.0",
-		"astro": "^4.6.0",
+		"astro": "^4.8.6",
 		"astro-webmanifest": "^1.0.0",
-		"sharp": "^0.33.3",
+		"sharp": "^0.33.4",
 		"tailwindcss": "^3.4.3"
 	},
 	"devDependencies": {
 		"prettier": "^3.2.5",
-		"prettier-plugin-tailwindcss": "^0.5.13"
+		"prettier-plugin-tailwindcss": "^0.5.14"
 	}
 }
