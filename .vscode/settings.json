@@ -10,5 +10,8 @@
 	"vs-code-prettier-eslint.prettierLast": false,
 	"[mdx]": {
 		"editor.defaultFormatter": "unifiedjs.vscode-mdx"
+	},
+	"[prisma]": {
+		"editor.defaultFormatter": "Prisma.prisma"
 	}
 }
