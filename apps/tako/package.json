@@ -37,7 +37,7 @@
     "@types/node": "^20.12.12",
     "commitizen": "^4.3.0",
     "cz-conventional-changelog": "^3.3.0",
-    "eslint": "^8.57.0",
+    "eslint": "^9.5.0",
     "eslint-config-neon": "^0.1.62",
     "eslint-formatter-pretty": "^5.0.0",
     "typescript": "^5.4.5",
