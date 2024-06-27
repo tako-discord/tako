@@ -18,7 +18,7 @@
   "dependencies": {
     "@discordjs/core": "^1.2.0",
     "@faker-js/faker": "^8.4.1",
-    "@linear/sdk": "^21.1.0",
+    "@linear/sdk": "^24.0.0",
     "@prisma/client": "^5.14.0",
     "@rafaelkallis/fasttext": "^0.3.1",
     "discord.js": "^14.15.2",
