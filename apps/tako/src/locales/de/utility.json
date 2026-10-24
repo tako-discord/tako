@@ -202,5 +202,35 @@
 				"description": "Ob die Übersetzung nur für dich sichtbar sein soll oder nicht"
 			}
 		}
+	},
+	"crosspost": {
+		"name": "",
+		"description": "",
+		"options": {
+			"channel": {
+				"name": "",
+				"description": ""
+			},
+			"state": {
+				"name": "",
+				"description": ""
+			}
+		},
+		"success": {
+			"enabled": {
+				"title": "",
+				"description": ""
+			},
+			"disabled": {
+				"title": "",
+				"description": ""
+			}
+		},
+		"errors": {
+			"invalidChannel": {
+				"title": "",
+				"description": ""
+			}
+		}
 	}
 }
